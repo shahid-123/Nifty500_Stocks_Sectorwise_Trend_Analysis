@@ -6,6 +6,7 @@ then generates Output/index.html and Output/sector_dashboard.html.
 from pathlib import Path
 from datetime import datetime
 import json
+import re
 import shutil
 import time
 import warnings
@@ -265,33 +266,52 @@ def main(open_browser=True):
         ser=sector_prices[sec].dropna()
         history[sec]={"dates":[d.strftime("%Y-%m-%d") for d in ser.index],
                       "values":[round(float(v),5) for v in ser.values]}
-    stock_history={}
-    for _,r in stocks.iterrows():
-        ticker=r["YahooTicker"]
-        if ticker not in prices.columns: continue
-        ser=prices[ticker].dropna()
-        stock_history[ticker]={"dates":[d.strftime("%Y-%m-%d") for d in ser.index],
-          "close":[round(float(v),4) for v in ser.values],
-          "ema20":[round(float(v),4) for v in ser.ewm(span=20,adjust=False).mean().values],
-          "ema50":[round(float(v),4) for v in ser.ewm(span=50,adjust=False).mean().values],
-          "ema200":[round(float(v),4) for v in ser.ewm(span=200,adjust=False).mean().values]}
+    # Keep the HTML compact. Stock chart history is stored per ticker and fetched on demand.
+    data_dir = OUTPUT / "data"
+    stock_dir = data_dir / "stocks"
+    stock_dir.mkdir(parents=True, exist_ok=True)
+    # Remove stale ticker files if the universe changes.
+    for old_csv in stock_dir.glob("*.csv"):
+        old_csv.unlink()
+    for ticker in prices.columns:
+        ser = prices[ticker].dropna()
+        if ser.empty:
+            continue
+        safe_ticker = re.sub(r"[^A-Za-z0-9._-]", "_", str(ticker))
+        stock_frame = pd.DataFrame({
+            "Date": ser.index.strftime("%Y-%m-%d"),
+            "Close": ser.astype(float).round(4).values,
+        })
+
+
+        stock_frame.to_csv(stock_dir / f"{safe_ticker}.csv", index=False, lineterminator="\n")
+
+
     payload={"sectors":clean_records(sectors),"stocks":clean_records(stocks),"history":history,
-             "stockHistory":stock_history,"defaultTf":"6M","asOf":asof.strftime("%Y-%m-%d"),
+             "defaultTf":"6M","asOf":asof.strftime("%Y-%m-%d"),
              "updatedAt":datetime.now().strftime("%Y-%m-%d %H:%M:%S")}
+    (data_dir/"dashboard.json").write_text(
+        json.dumps(payload,allow_nan=False,separators=(",",":")), encoding="utf-8"
+    )
     template=TEMPLATE.read_text(encoding="utf-8")
-    if "__DATA__" not in template: raise RuntimeError("Template missing __DATA__ placeholder.")
-    dashboard=template.replace("__DATA__",json.dumps(payload,allow_nan=False,separators=(",",":")))
+    if "const D=await (await fetch('/data/dashboard.json'" not in template:
+        raise RuntimeError("Dashboard template is not optimized to load /data/dashboard.json. Run apply_dashboard_optimization.py again.")
+    dashboard=template
     (OUTPUT/"index.html").write_text(dashboard,encoding="utf-8")
-    (OUTPUT/"sector_dashboard.html").write_text(dashboard,encoding="utf-8")
+    (OUTPUT/"sector_dashboard.html").write_text(
+        '<!doctype html><html><head><meta charset="utf-8"><meta http-equiv="refresh" content="0;url=/">'
+        '<title>Nifty 500 Sector Intelligence</title></head><body><a href="/">Open dashboard</a></body></html>',
+        encoding="utf-8"
+    )
     # Small metadata file for health checks/logging.
     (OUTPUT/"last_update.json").write_text(json.dumps({"updatedAt":payload["updatedAt"],"asOf":payload["asOf"],
       "symbolsLoaded":len(universe),"stocksAnalysed":len(stocks),"sectors":len(sectors)},indent=2),encoding="utf-8")
     log(f"Update completed: {len(stocks)} stocks, {len(sectors)} sectors, prices through {asof:%Y-%m-%d}.")
     # Include PWA install/offline shell assets in the deployed Output directory.
     for asset in ("manifest.webmanifest", "service-worker.js"):
-        src = ROOT / asset
+        src = BASE / asset
         if src.exists(): shutil.copy2(src, OUTPUT / asset)
-    src_icons = ROOT / "icons"
+    src_icons = BASE / "icons"
     if src_icons.exists():
         shutil.copytree(src_icons, OUTPUT / "icons", dirs_exist_ok=True)
     log("Outputs saved to Output/.")

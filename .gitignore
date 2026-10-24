@@ -4,3 +4,11 @@ __pycache__/
 .env
 Output/update.log
 Output/scheduled_task_console.log
+Output/nifty500_prices_history.csv
+
+# Local backups and bulky generated source data
+*_before_optimization.py
+*_before_data_split.py
+*_before_optimization.html
+*_before_data_split.html
+apply_dashboard_optimization.py

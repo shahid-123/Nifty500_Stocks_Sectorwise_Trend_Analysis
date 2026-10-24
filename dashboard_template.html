@@ -14,13 +14,34 @@
 <section class="panel"><h3 id="historyTitle">Sector composite history</h3><div class="muted">Index rebased to 100 at the beginning of the selected timeframe.</div><div id="historyChart" class="chart"></div></section>
 <section class="panel"><h3 id="stockTitle">Constituent stocks</h3><div class="tablewrap"><table id="stockTable"></table></div></section><section class="panel"><h3 id="priceTitle">Selected stock chart</h3><div id="priceChart" class="chart"></div></section>
 <div class="footer">Calculated equal-weighted sector proxy; not official NSE sector indices. Reversal flags are screening heuristics, not buy/sell advice.</div></main>
-<script>/* TEMPLATE ONLY: fetch_data.py replaces __DATA__ with downloaded data and writes Output/index.html. Do not open this template directly. */const D=__DATA__,months={"1M":1,"3M":3,"6M":6,"1Y":12,"3Y":36,"5Y":60,"10Y":120,"Since Inception":null};const $=x=>document.getElementById(x);let selected="",chosenStock="";
+<script type="module">/* TEMPLATE ONLY: fetch_data.py replaces __DATA__ with downloaded data and writes Output/index.html. Do not open this template directly. */const D=await (await fetch('/data/dashboard.json',{cache:'no-store'})).json(),months={"1M":1,"3M":3,"6M":6,"1Y":12,"3Y":36,"5Y":60,"10Y":120,"Since Inception":null};const $=x=>document.getElementById(x);let selected="",chosenStock="";
 const fmt=v=>v==null||!Number.isFinite(+v)?"—":(+v).toLocaleString("en-IN",{maximumFractionDigits:2}),ret=v=>v==null?"—":`<span class="${+v>=0?'positive':'negative'}">${fmt(v)}%</span>`,trend=v=>`<span class="badge ${v==='Uptrend'?'up':v==='Downtrend'?'down':'flat'}">${v||'—'}</span>`;
 function makeTable(id,cols,rows,click){let t=$(id);t.innerHTML='<thead><tr>'+cols.map(c=>`<th>${c[0]}</th>`).join('')+'</tr></thead><tbody>'+rows.map(r=>'<tr>'+cols.map(c=>`<td>${c[2]?c[2](r[c[1]],r):(r[c[1]]??'—')}</td>`).join('')+'</tr>').join('')+'</tbody>';if(click)t.querySelectorAll('tbody tr').forEach((tr,i)=>tr.onclick=()=>click(rows[i]));}
-function drawStock(s){
+async function drawStock(s){
 chosenStock=s.Symbol;
 $('priceTitle').textContent=s.Symbol+' price, 20/50/200 EMA and timeframe returns';
-let h=D.stockHistory[s.YahooTicker];if(!h)return;
+let h;
+try {
+  const resp = await fetch('/data/stocks/'+encodeURIComponent(s.YahooTicker)+'.csv', {cache:'no-store'});
+  if (!resp.ok) throw new Error('HTTP '+resp.status);
+  const raw = (await resp.text()).trim().split(/\r?\n/);
+  const rows = raw.slice(1).map(line => {
+    const comma = line.lastIndexOf(',');
+    return comma < 0 ? null : [line.slice(0, comma), Number(line.slice(comma+1))];
+  }).filter(row => row && row[0] && Number.isFinite(row[1]));
+  if (!rows.length) throw new Error('No price history found');
+  const ema = (values, span) => {
+    const alpha = 2/(span+1); let prev;
+    return values.map(v => { prev = prev === undefined ? v : alpha*v+(1-alpha)*prev; return Math.round(prev*10000)/10000; });
+  };
+  h = {dates:rows.map(r=>r[0]), close:rows.map(r=>r[1])};
+  h.ema20=ema(h.close,20); h.ema50=ema(h.close,50); h.ema200=ema(h.close,200);
+} catch (err) {
+  console.error('Could not load stock history for '+s.Symbol, err);
+  $('priceTitle').textContent=s.Symbol+' history unavailable — try refreshing the page';
+  return;
+}
+if (chosenStock !== s.Symbol) return;
 let tf=$('tf').value,cut=new Date(h.dates.at(-1)),i=0;
 if(months[tf]!==null){cut.setMonth(cut.getMonth()-months[tf]);i=h.dates.findIndex(d=>new Date(d)>=cut);if(i<0)i=0;}
 const retKeys=['1M %','3M %','6M %','1Y %','3Y %','5Y %','Since Inception %'];
