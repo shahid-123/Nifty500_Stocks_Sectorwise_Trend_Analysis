@@ -1,0 +1,26 @@
+
+Thu 11/06/2025 11:20:07.01[Log START]  ============ C:\Users\HOME\DOWNLO~1\ACERDR~1\BLUETO~1.2_W\BLUETO~1.2_W\Setup_Driver.cmd ============ 
+Thu 11/06/2025 11:20:07.02[Log TRACE]  pnputil /add-driver "INF_INSTALL\Win10_UWD\x64\ibtusb\HRP\ibtusb.inf" /install 
+Microsoft PnP Utility
+
+Adding driver package:  ibtusb.inf
+Driver package added successfully.
+Published Name:         oem21.inf
+
+Total driver packages:  1
+Added driver packages:  1
+Thu 11/06/2025 11:20:07.02[Log TRACE]  pnputil -i -a "INF_INSTALL\Win10_UWD\x64\ibtusb\HRP\ibtusb.inf" 
+Microsoft PnP Utility
+
+Processing inf :            ibtusb.inf
+Successfully installed the driver.
+Driver package added successfully.
+Published name :            oem21.inf
+
+
+Total attempted:              1
+Number successfully imported: 1
+
+
+Thu 11/06/2025 11:21:58.11[Log Leave]  ============ C:\Users\HOME\DOWNLO~1\ACERDR~1\BLUETO~1.2_W\BLUETO~1.2_W\Setup_Driver.cmd ============ 
+

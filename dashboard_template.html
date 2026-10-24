@@ -1,0 +1,90 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#07111f"><meta name="description" content="Nifty 500 sector rotation, stock trends and market intelligence dashboard"><link rel="manifest" href="/manifest.webmanifest"><link rel="apple-touch-icon" href="/icons/icon-192.png"><title>Nifty 500 Sector Intelligence</title><script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script><style>
+:root{--bg:#07111f;--panel:#101d30;--line:#263b55;--text:#eaf2fc;--muted:#94a8c1;--green:#2dd4a7;--red:#ff7183;--blue:#67a7ff}*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at top left,#132844 0,#07111f 55%);color:var(--text);font:14px 'Segoe UI',Arial,sans-serif}.wrap{max-width:1550px;margin:auto;padding:24px}.hero,.panel,.metric{border:1px solid var(--line);border-radius:16px;background:linear-gradient(135deg,#112239,#0d192a);padding:18px;margin-bottom:16px}.hero{background:linear-gradient(110deg,#173a5d,#0e1d30);padding:24px}.eyebrow{color:var(--blue);font-weight:700;letter-spacing:.15em;font-size:11px}.hero h1{margin:8px 0;font-size:30px}.muted{color:var(--muted);font-size:12px}.controls{display:flex;gap:18px;flex-wrap:wrap;margin:18px 0}.controls label{color:var(--muted)}select,input{background:#101d30;color:var(--text);border:1px solid var(--line);padding:10px;border-radius:8px;margin-left:8px}.metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.metric{margin:0}.value{font-size:27px;font-weight:700;margin-top:8px}.grid{display:grid;grid-template-columns:1.5fr 1fr;gap:16px}.chart{height:410px}.small{height:300px}.tablewrap{overflow:auto;max-height:520px;border:1px solid var(--line);border-radius:10px}table{border-collapse:collapse;width:100%;white-space:nowrap;font-size:12px}th{position:sticky;top:0;background:#172b43;color:#a9bdd5;text-align:left;padding:11px}td{padding:10px;border-top:1px solid #20344c}tbody tr{cursor:pointer}tbody tr:hover{background:#18304a}.up{color:#75f0c6;background:#123f35}.down{color:#ff9aa6;background:#4b202b}.flat{color:#ffd58a;background:#45371c}.badge,.flag{padding:4px 7px;border-radius:6px;font-weight:bold}.flag{color:#8cf5c6;background:#124b36}.positive{color:#2dd4a7}.negative{color:#ff7183}.ai-score{display:inline-block;padding:4px 8px;border-radius:7px;background:#143a59;color:#9bd4ff;font-weight:800}.footer{color:var(--muted);font-size:11px;margin:18px 0}@media(max-width:900px){.grid{grid-template-columns:1fr}.metrics{grid-template-columns:repeat(2,1fr)}.wrap{padding:12px}}
+</style></head><body><main class="wrap"><header class="hero"><div class="eyebrow">NSE INDIA · MARKET INTELLIGENCE</div><h1>Nifty 500 Sector Rotation</h1><div class="muted">Sector performance by timeframe, trend state, reversal watch and constituent stocks.</div></header>
+<div class="controls">
+<label>TIMEFRAME <select id="tf"><option>1M</option><option>3M</option><option>6M</option><option>1Y</option><option>3Y</option><option>5Y</option><option>10Y</option><option>Since Inception</option></select></label>
+<label>SECTOR <select id="sector"><option value="">All sectors</option></select></label>
+<label>STOCK SETUP <select id="setup"><option value="all">All stocks</option><option value="uptrend">Uptrend only</option><option value="reversal">Reversal watch only</option><option value="both">Uptrend + Reversal watch</option><option value="ai">AI shortlist</option></select></label>
+<label>AI SORT <select id="aiSort"><option value="score">AI score: highest first</option><option value="momentum">Selected timeframe return</option><option value="reversal">Reversal candidates first</option><option value="symbol">Symbol A–Z</option></select></label>
+<label>SEARCH STOCK <input id="search" placeholder="e.g. RELIANCE"></label></div>
+<div class="panel" style="padding:12px 16px;margin-top:-4px"><strong style="color:#67a7ff">AI-assisted stock filter</strong> <span class="muted">Transparent rules-based ranking using trend alignment, selected-timeframe return, RSI, moving-average slope and reversal-watch conditions. This is a screening score, not a prediction or buy recommendation.</span></div>
+<div class="metrics"><div class="metric"><div class="muted">Stocks analysed</div><div id="mStocks" class="value">—</div></div><div class="metric"><div class="muted">Sectors</div><div id="mSectors" class="value">—</div></div><div class="metric"><div class="muted">Uptrend sectors</div><div id="mUp" class="value">—</div></div><div class="metric"><div class="muted">Reversal watch</div><div id="mRev" class="value">—</div></div></div>
+<div class="grid"><section class="panel"><h3 id="barTitle">Sector performance</h3><div class="muted">Click a bar to filter stocks below.</div><div id="bar" class="chart"></div></section><section class="panel"><h3>Trend distribution</h3><div id="donut" class="chart small"></div></section></div>
+<section class="panel"><h3>Sector performance scorecard</h3><div class="tablewrap"><table id="sectorTable"></table></div></section>
+<section class="panel"><h3 id="historyTitle">Sector composite history</h3><div class="muted">Index rebased to 100 at the beginning of the selected timeframe.</div><div id="historyChart" class="chart"></div></section>
+<section class="panel"><h3 id="stockTitle">Constituent stocks</h3><div class="tablewrap"><table id="stockTable"></table></div></section><section class="panel"><h3 id="priceTitle">Selected stock chart</h3><div id="priceChart" class="chart"></div></section>
+<div class="footer">Calculated equal-weighted sector proxy; not official NSE sector indices. Reversal flags are screening heuristics, not buy/sell advice.</div></main>
+<script>/* TEMPLATE ONLY: fetch_data.py replaces __DATA__ with downloaded data and writes Output/index.html. Do not open this template directly. */const D=__DATA__,months={"1M":1,"3M":3,"6M":6,"1Y":12,"3Y":36,"5Y":60,"10Y":120,"Since Inception":null};const $=x=>document.getElementById(x);let selected="",chosenStock="";
+const fmt=v=>v==null||!Number.isFinite(+v)?"—":(+v).toLocaleString("en-IN",{maximumFractionDigits:2}),ret=v=>v==null?"—":`<span class="${+v>=0?'positive':'negative'}">${fmt(v)}%</span>`,trend=v=>`<span class="badge ${v==='Uptrend'?'up':v==='Downtrend'?'down':'flat'}">${v||'—'}</span>`;
+function makeTable(id,cols,rows,click){let t=$(id);t.innerHTML='<thead><tr>'+cols.map(c=>`<th>${c[0]}</th>`).join('')+'</tr></thead><tbody>'+rows.map(r=>'<tr>'+cols.map(c=>`<td>${c[2]?c[2](r[c[1]],r):(r[c[1]]??'—')}</td>`).join('')+'</tr>').join('')+'</tbody>';if(click)t.querySelectorAll('tbody tr').forEach((tr,i)=>tr.onclick=()=>click(rows[i]));}
+function drawStock(s){
+chosenStock=s.Symbol;
+$('priceTitle').textContent=s.Symbol+' price, 20/50/200 EMA and timeframe returns';
+let h=D.stockHistory[s.YahooTicker];if(!h)return;
+let tf=$('tf').value,cut=new Date(h.dates.at(-1)),i=0;
+if(months[tf]!==null){cut.setMonth(cut.getMonth()-months[tf]);i=h.dates.findIndex(d=>new Date(d)>=cut);if(i<0)i=0;}
+const retKeys=['1M %','3M %','6M %','1Y %','3Y %','5Y %','Since Inception %'];
+const retVals=retKeys.map(k=>s[k]==null||!Number.isFinite(Number(s[k]))?'N/A':Number(s[k]).toFixed(2)+'%');
+const hoverLines=retKeys.map((k,j)=>k.replace(' %','')+': '+retVals[j]).join('<br>');
+const traces=[
+{type:'scatter',mode:'lines',name:'Price',x:h.dates.slice(i),y:h.close.slice(i),line:{color:'#67a7ff',width:2},hovertemplate:'Date: %{x}<br>Price: %{y:.2f}<br>'+hoverLines+'<extra></extra>'},
+{type:'scatter',mode:'lines',name:'20 EMA',x:h.dates.slice(i),y:h.ema20.slice(i),line:{color:'#2dd4a7'},hovertemplate:'Date: %{x}<br>20 EMA: %{y:.2f}<extra></extra>'},
+{type:'scatter',mode:'lines',name:'50 EMA',x:h.dates.slice(i),y:h.ema50.slice(i),line:{color:'#f6bd60'},hovertemplate:'Date: %{x}<br>50 EMA: %{y:.2f}<extra></extra>'}
+];
+if(h.ema200)traces.push({type:'scatter',mode:'lines',name:'200 EMA',x:h.dates.slice(i),y:h.ema200.slice(i),line:{color:'#c084fc',width:2},hovertemplate:'Date: %{x}<br>200 EMA: %{y:.2f}<extra></extra>'});
+Plotly.react('priceChart',traces,{paper_bgcolor:'rgba(0,0,0,0)',plot_bgcolor:'rgba(0,0,0,0)',font:{color:'#f3f7ff'},hoverlabel:{bgcolor:'#07111f',bordercolor:'#67a7ff',font:{color:'#ffffff',size:14,family:'Arial, sans-serif'}},xaxis:{gridcolor:'#20344c'},yaxis:{gridcolor:'#20344c'},legend:{orientation:'h'},hovermode:'x unified'},{responsive:true,displaylogo:false});
+}
+function aiScore(s,k){
+  // Explainable rule-based screening score, not a prediction.
+  let score=0;
+  const r=Number(s[k]);
+  if(Number.isFinite(r)) score+=Math.max(0,Math.min(25,12.5+r*0.65));
+  if(s.Trend==='Uptrend')score+=25;else if(s.Trend==='Flat / Transition')score+=12;
+  const rsi=Number(s['RSI 14']);
+  if(Number.isFinite(rsi)){if(rsi>=50&&rsi<=68)score+=18;else if(rsi>=45&&rsi<50)score+=12;else if(rsi>68&&rsi<=75)score+=10;else if(rsi>75)score+=4;else score+=5;}
+  const slope=Number(s['20EMA Slope %']);
+  if(Number.isFinite(slope))score+=Math.max(0,Math.min(12,6+slope*1.5));
+  if(s['Early Reversal']===true)score+=15;
+  const d=Number(s['From 52W High %']);
+  if(Number.isFinite(d)&&d>-15&&d<-2)score+=5;
+  return Math.round(Math.max(0,Math.min(100,score)));
+}
+function render(){let tf=$('tf').value,k=tf+' %',sectors=[...D.sectors].sort((a,b)=>(b[k]??-99999)-(a[k]??-99999));$('mStocks').textContent=D.stocks.length;$('mSectors').textContent=D.sectors.length;$('mUp').textContent=D.sectors.filter(x=>x.Trend==='Uptrend').length;$('mRev').textContent=D.sectors.filter(x=>x['Early Reversal Watch']===true).length;$('barTitle').textContent='Sector performance · '+tf;
+Plotly.react('bar',[{type:'bar',orientation:'h',y:sectors.map(x=>x.Sector).reverse(),x:sectors.map(x=>x[k]??0).reverse(),marker:{color:sectors.map(x=>(x[k]??0)>=0?'#2dd4a7':'#ff7183').reverse()},hovertemplate:'<b>%{y}</b><br>Return: %{x:.2f}%<extra>Click to filter</extra>'}],{paper_bgcolor:'rgba(0,0,0,0)',plot_bgcolor:'rgba(0,0,0,0)',font:{color:'#c5d3e5'},margin:{l:150,r:15,t:10,b:40},xaxis:{title:'Return (%)',gridcolor:'#20344c'},yaxis:{automargin:true},height:Math.max(400,sectors.length*27)},{responsive:true,displaylogo:false});$('bar').on('plotly_click',e=>{selected=e.points[0].y;$('sector').value=selected;render()});
+let ts=['Uptrend','Flat / Transition','Downtrend'];Plotly.react('donut',[{type:'pie',labels:ts,values:ts.map(t=>D.sectors.filter(x=>x.Trend===t).length),hole:.72,hovertemplate:'%{label}: %{value} sectors (%{percent})<extra></extra>',marker:{colors:['#2dd4a7','#f6bd60','#ff7183']},textinfo:'label+value'}],{paper_bgcolor:'rgba(0,0,0,0)',font:{color:'#f3f7ff'},hoverlabel:{bgcolor:'#07111f',bordercolor:'#67a7ff',font:{color:'#ffffff',size:14,family:'Arial, sans-serif'}},showlegend:false,margin:{l:5,r:5,t:5,b:5}},{responsive:true,displaylogo:false});
+makeTable('sectorTable',[['Sector','Sector'],['Trend','Trend',v=>trend(v)],[tf,k,v=>ret(v)],...['1M %','3M %','6M %','1Y %','3Y %','5Y %'].map(x=>[x.replace(' %',''),x,v=>ret(v)]),['Index level','Index Level (base 100)',fmt],['From 3M high','From 3M High %',ret],['Reversal','Early Reversal Watch',v=>v?'<span class="flag">WATCH</span>':'—'],['Stocks','Stocks']],sectors,r=>{selected=r.Sector;$('sector').value=selected;render()});
+let traces=[];for(let [name,obj] of Object.entries(D.history)){if(selected&&name!==selected)continue;let cut=new Date(obj.dates.at(-1));let i=0;if(months[tf]!==null){cut.setMonth(cut.getMonth()-months[tf]);i=obj.dates.findIndex(d=>new Date(d)>=cut);if(i<0)i=0;}let vals=obj.values.slice(i),b=vals[0]||1;traces.push({type:'scatter',mode:'lines',name,x:obj.dates.slice(i),y:vals.map(v=>v/b*100),line:{width:2}})}$('historyTitle').textContent=(selected||'All sectors')+' composite history · '+tf;
+Plotly.react('historyChart',traces,{paper_bgcolor:'rgba(0,0,0,0)',plot_bgcolor:'rgba(0,0,0,0)',font:{color:'#f3f7ff'},hoverlabel:{bgcolor:'#07111f',bordercolor:'#67a7ff',font:{color:'#ffffff',size:14,family:'Arial, sans-serif'}},xaxis:{gridcolor:'#20344c'},yaxis:{title:'Index (start=100)',gridcolor:'#20344c'},legend:{orientation:'h'},hovermode:'x unified',shapes:[{type:'line',xref:'paper',x0:0,x1:1,y0:100,y1:100,line:{color:'#71839a',dash:'dot'}}]},{responsive:true,displaylogo:false});
+let q=$('search').value.toUpperCase().trim(),setup=$('setup').value,sort=$('aiSort').value;
+let stocks=D.stocks.filter(x=>(!selected||x.Sector===selected)&&(!q||x.Symbol.toUpperCase().includes(q)));
+stocks=stocks.map(x=>({...x,AI_Score:aiScore(x,k)}));
+if(setup==='uptrend')stocks=stocks.filter(x=>x.Trend==='Uptrend');
+if(setup==='reversal')stocks=stocks.filter(x=>x['Early Reversal']===true);
+if(setup==='both')stocks=stocks.filter(x=>x.Trend==='Uptrend'&&x['Early Reversal']===true);
+if(setup==='ai')stocks=stocks.filter(x=>x.AI_Score>=60);
+if(sort==='score')stocks.sort((a,b)=>b.AI_Score-a.AI_Score);
+else if(sort==='momentum')stocks.sort((a,b)=>(b[k]??-99999)-(a[k]??-99999));
+else if(sort==='reversal')stocks.sort((a,b)=>Number(b['Early Reversal']===true)-Number(a['Early Reversal']===true)||b.AI_Score-a.AI_Score);
+else stocks.sort((a,b)=>a.Symbol.localeCompare(b.Symbol));
+$('stockTitle').textContent=(selected||'All sectors')+' stock screener · '+stocks.length+' matches';
+makeTable('stockTable',[['Symbol','Symbol'],['Sector','Sector'],['AI score','AI_Score',v=>`<span class="ai-score">${fmt(v)}/100</span>`],['Trend','Trend',trend],['Price','Price',fmt],...['1M %','3M %','6M %','1Y %','3Y %','5Y %'].map(x=>[x.replace(' %',''),x,ret]),['RSI','RSI 14',fmt],['From 52W high','From 52W High %',ret],['Reversal','Early Reversal',v=>v?'<span class="flag">WATCH</span>':'—'],['Strength','Strength Score',fmt]],stocks,drawStock);
+if(stocks.length){
+  const activeStock=stocks.find(x=>x.Symbol===chosenStock)||stocks[0];
+  drawStock(activeStock); // refresh chart whenever sector, timeframe, or filters change
+}else{$('priceTitle').textContent='No stocks match the selected filters';Plotly.purge('priceChart');}
+}
+D.sectors.forEach(x=>{let o=document.createElement('option');o.value=x.Sector;o.textContent=x.Sector;$('sector').appendChild(o)});$('tf').value=D.defaultTf||'6M';$('tf').onchange=render;$('sector').onchange=()=>{selected=$('sector').value;render()};$('setup').onchange=render;$('aiSort').onchange=render;$('search').oninput=render;render();
+// On-open fallback: only asks GitHub Actions to refresh if weekday data is stale after 16:00 IST.
+(function(){
+  const status=document.createElement("div");
+  status.id="refreshStatus";
+  status.className="footer";
+  status.textContent="Data refresh check: checking schedule…";
+  const footer=document.querySelector(".footer");
+  if(footer) footer.insertAdjacentElement("afterend",status);
+  fetch("/api/refresh?updatedAt="+encodeURIComponent(D.updatedAt||""),{cache:"no-store"})
+    .then(r=>r.json())
+    .then(x=>{if(status) status.textContent="Refresh status: "+(x.message||x.status||"checked");})
+    .catch(()=>{if(status) status.textContent="Refresh status: automatic fallback unavailable; scheduled GitHub Actions remains responsible for daily updates.";});
+})();
+</script><script>if("serviceWorker" in navigator && (location.protocol === "https:" || location.hostname === "localhost")){window.addEventListener("load",()=>navigator.serviceWorker.register("/service-worker.js").catch(err=>console.warn("PWA service worker registration failed",err)));}</script></body></html>
