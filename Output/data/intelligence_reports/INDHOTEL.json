@@ -1,0 +1,196 @@
+{
+  "symbol": "INDHOTEL",
+  "yahooTicker": "INDHOTEL.NS",
+  "companyName": "The Indian Hotels Company Limited",
+  "generatedAt": "2026-10-27T00:36:01+05:30",
+  "dataAsOf": "2026-10-23",
+  "sector": "Consumer Services",
+  "currency": "INR",
+  "price": 781.75,
+  "technical": {
+    "Sector": "Consumer Services",
+    "Price": 781.75,
+    "Trend": "Uptrend",
+    "Strength Score": 10.5870481358,
+    "RSI 14": 69.9156604728,
+    "20 EMA": 742.959005457,
+    "50 EMA": 731.6387175878,
+    "200 EMA": 709.5928433368,
+    "1M %": 5.1163086148,
+    "3M %": 7.9690647303,
+    "6M %": 22.797960595,
+    "1Y %": 6.4648586033,
+    "From 52W High %": -0.0703039501,
+    "20EMA Slope %": 2.4865992207,
+    "Early Reversal": false,
+    "price_above_20ema": true,
+    "price_above_50ema": true,
+    "price_above_200ema": true
+  },
+  "quarterly": {
+    "Revenue": [
+      {
+        "period": "2026-09-30",
+        "value": 24843200000.0
+      },
+      {
+        "period": "2026-06-30",
+        "value": 23391900000.0
+      },
+      {
+        "period": "2026-03-31",
+        "value": 27652900000.0
+      },
+      {
+        "period": "2025-12-31",
+        "value": 28419600000.0
+      }
+    ],
+    "Operating income": [
+      {
+        "period": "2026-09-30",
+        "value": 5317500000.0
+      },
+      {
+        "period": "2026-06-30",
+        "value": 5101300000.0
+      },
+      {
+        "period": "2026-03-31",
+        "value": 8053100000.0
+      },
+      {
+        "period": "2025-12-31",
+        "value": 9255000000.0
+      }
+    ],
+    "Net income": [
+      {
+        "period": "2026-09-30",
+        "value": 3494900000.0
+      },
+      {
+        "period": "2026-06-30",
+        "value": 3579000000.0
+      },
+      {
+        "period": "2026-03-31",
+        "value": 5998600000.0
+      },
+      {
+        "period": "2025-12-31",
+        "value": 9032300000.0
+      }
+    ],
+    "Diluted EPS": [
+      {
+        "period": "2026-09-30",
+        "value": 2.46
+      },
+      {
+        "period": "2026-06-30",
+        "value": 2.51
+      },
+      {
+        "period": "2026-03-31",
+        "value": 4.21
+      },
+      {
+        "period": "2025-12-31",
+        "value": 6.35
+      }
+    ],
+    "Operating cash flow": [],
+    "Capital expenditure": [],
+    "Total debt": [
+      {
+        "period": "2026-09-30",
+        "value": 34706900000.0
+      },
+      {
+        "period": "2026-03-31",
+        "value": 28365500000.0
+      },
+      {
+        "period": "2025-03-31",
+        "value": 30842700000.0
+      }
+    ],
+    "Cash and equivalents": [
+      {
+        "period": "2026-09-30",
+        "value": 45831300000.0
+      },
+      {
+        "period": "2026-03-31",
+        "value": 43148800000.0
+      },
+      {
+        "period": "2025-03-31",
+        "value": 30661600000.0
+      }
+    ],
+    "Free cash flow (calculated)": []
+  },
+  "valuation": {
+    "Trailing P/E": 51.2234,
+    "Forward P/E": 41.4132,
+    "Price-to-book": 8.3014,
+    "Debt-to-equity": 0.22018000000000001,
+    "Return on equity (%)": 16.541,
+    "Profit margin (%)": 20.611,
+    "Operating margin (%)": 23.911,
+    "Market cap": 1132340314112.0,
+    "52-week high": 795.65,
+    "52-week low": 565.0
+  },
+  "quarterlyDataSource": "Yahoo Finance (yfinance)",
+  "latestQuarterAvailable": "2026-09-30",
+  "latestQuarterByMetric": {
+    "Revenue": "2026-09-30",
+    "Operating income": "2026-09-30",
+    "Net income": "2026-09-30",
+    "Diluted EPS": "2026-09-30",
+    "Operating cash flow": null,
+    "Capital expenditure": null,
+    "Total debt": "2026-09-30",
+    "Cash and equivalents": "2026-09-30",
+    "Free cash flow (calculated)": null
+  },
+  "revenueYoYGrowthPct": -12.58,
+  "netIncomeYoYGrowthPct": -61.31,
+  "findings": [
+    "The existing dashboard classifies the stock as an Uptrend.",
+    "Price is above the 20, 50 and 200 EMA values stored in the dashboard.",
+    "Latest available quarterly revenue is -12.6% versus the quarter four periods earlier (provider-reported series).",
+    "Latest available quarterly net income is -61.3% versus the quarter four periods earlier (provider-reported series)."
+  ],
+  "risks": [
+    "Quarterly operating cash-flow data was not returned; do not infer cash conversion quality without a verified source."
+  ],
+  "futureProspects": "Research view only: assess future prospects after verifying the latest company guidance, demand outlook, execution capacity, margins, cash conversion and valuation. This automated report does not claim management guidance or an order book unless a dated source document is reviewed.",
+  "concallAndDisclosureSources": [
+    {
+      "label": "Screener financials and concalls search",
+      "url": "https://www.google.com/search?q=The+Indian+Hotels+Company+Limited+INDHOTEL+quarterly+results+investor+presentation+concall+site%3Ascreener.in"
+    },
+    {
+      "label": "NSE corporate announcements",
+      "url": "https://www.nseindia.com/companies-listing/corporate-filings-announcements"
+    },
+    {
+      "label": "Concall transcripts and order-book search",
+      "url": "https://www.google.com/search?q=%22INDHOTEL%22+earnings+call+transcript+investor+presentation+order+book"
+    },
+    {
+      "label": "Company investor-relations search",
+      "url": "https://www.google.com/search?q=The+Indian+Hotels+Company+Limited+INDHOTEL+quarterly+results+investor+presentation+concall+investor+relations"
+    }
+  ],
+  "dataNotes": [
+    "Market and financial data retrieved through yfinance/Yahoo Finance; availability and accounting labels can vary by company. Yahoo Finance debtToEquity is converted from percentage units to a ratio (divide by 100) for comparison with Screener-style ratios.",
+    "Quarterly periods are sorted by quarter-end date, and the report exposes the newest quarter actually returned by Yahoo Finance. Yahoo Finance may lag Screener.in or official exchange filings; compare the displayed quarter-end date with the latest company result before relying on it.",
+    "Concall summaries, management guidance and order-book figures are not automatically extracted in this version; use the source links and verify the original dated disclosure.",
+    "This report is informational research, not investment advice or a buy/sell signal."
+  ]
+}

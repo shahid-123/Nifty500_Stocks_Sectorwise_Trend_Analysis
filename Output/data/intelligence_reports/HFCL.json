@@ -1,0 +1,196 @@
+{
+  "symbol": "HFCL",
+  "yahooTicker": "HFCL.NS",
+  "companyName": "HFCL Limited",
+  "generatedAt": "2026-10-27T00:35:40+05:30",
+  "dataAsOf": "2026-10-23",
+  "sector": "Telecommunication",
+  "currency": "INR",
+  "price": 240.07,
+  "technical": {
+    "Sector": "Telecommunication",
+    "Price": 240.0700073242,
+    "Trend": "Uptrend",
+    "Strength Score": 96.409507839,
+    "RSI 14": 50.6592670533,
+    "20 EMA": 248.2522890104,
+    "50 EMA": 235.0139779143,
+    "200 EMA": 175.3518163747,
+    "1M %": 10.4430292667,
+    "3M %": 16.0785796254,
+    "6M %": 145.8253306106,
+    "1Y %": 213.2910918533,
+    "From 52W High %": -11.7065050705,
+    "20EMA Slope %": 1.853249565,
+    "Early Reversal": false,
+    "price_above_20ema": false,
+    "price_above_50ema": true,
+    "price_above_200ema": true
+  },
+  "quarterly": {
+    "Revenue": [
+      {
+        "period": "2026-09-30",
+        "value": 25417900000.0
+      },
+      {
+        "period": "2026-06-30",
+        "value": 19149800000.0
+      },
+      {
+        "period": "2026-03-31",
+        "value": 18241200000.0
+      },
+      {
+        "period": "2025-12-31",
+        "value": 12107900000.0
+      }
+    ],
+    "Operating income": [
+      {
+        "period": "2026-09-30",
+        "value": 5768200000.0
+      },
+      {
+        "period": "2026-06-30",
+        "value": 3628700000.0
+      },
+      {
+        "period": "2026-03-31",
+        "value": 2691900000.0
+      },
+      {
+        "period": "2025-12-31",
+        "value": 1843300000.0
+      }
+    ],
+    "Net income": [
+      {
+        "period": "2026-09-30",
+        "value": 3629100000.0
+      },
+      {
+        "period": "2026-06-30",
+        "value": 2286000000.0
+      },
+      {
+        "period": "2026-03-31",
+        "value": 1785000000.0
+      },
+      {
+        "period": "2025-12-31",
+        "value": 976200000.0
+      }
+    ],
+    "Diluted EPS": [
+      {
+        "period": "2026-09-30",
+        "value": 2.36
+      },
+      {
+        "period": "2026-06-30",
+        "value": 1.49
+      },
+      {
+        "period": "2026-03-31",
+        "value": 1.21
+      },
+      {
+        "period": "2025-12-31",
+        "value": 0.67
+      }
+    ],
+    "Operating cash flow": [],
+    "Capital expenditure": [],
+    "Total debt": [
+      {
+        "period": "2026-09-30",
+        "value": 19381700000.0
+      },
+      {
+        "period": "2026-03-31",
+        "value": 18963300000.0
+      },
+      {
+        "period": "2025-03-31",
+        "value": 15219600000.0
+      }
+    ],
+    "Cash and equivalents": [
+      {
+        "period": "2026-09-30",
+        "value": 12338300000.0
+      },
+      {
+        "period": "2026-03-31",
+        "value": 1161800000.0
+      },
+      {
+        "period": "2025-03-31",
+        "value": 1694500000.0
+      }
+    ],
+    "Free cash flow (calculated)": []
+  },
+  "valuation": {
+    "Trailing P/E": 42.6928,
+    "Forward P/E": 29.4735,
+    "Price-to-book": 6.631,
+    "Debt-to-equity": 0.33675,
+    "Return on equity (%)": 18.656,
+    "Profit margin (%)": 11.581,
+    "Operating margin (%)": 22.693,
+    "Market cap": 374348414976.0,
+    "52-week high": 282.25,
+    "52-week low": 59.82
+  },
+  "quarterlyDataSource": "Yahoo Finance (yfinance)",
+  "latestQuarterAvailable": "2026-09-30",
+  "latestQuarterByMetric": {
+    "Revenue": "2026-09-30",
+    "Operating income": "2026-09-30",
+    "Net income": "2026-09-30",
+    "Diluted EPS": "2026-09-30",
+    "Operating cash flow": null,
+    "Capital expenditure": null,
+    "Total debt": "2026-09-30",
+    "Cash and equivalents": "2026-09-30",
+    "Free cash flow (calculated)": null
+  },
+  "revenueYoYGrowthPct": 109.93,
+  "netIncomeYoYGrowthPct": 271.76,
+  "findings": [
+    "The existing dashboard classifies the stock as an Uptrend.",
+    "Price is above the 200 EMA but is not above all of the 20/50/200 EMA levels.",
+    "Latest available quarterly revenue is +109.9% versus the quarter four periods earlier (provider-reported series).",
+    "Latest available quarterly net income is +271.8% versus the quarter four periods earlier (provider-reported series)."
+  ],
+  "risks": [
+    "Quarterly operating cash-flow data was not returned; do not infer cash conversion quality without a verified source."
+  ],
+  "futureProspects": "Research view only: assess future prospects after verifying the latest company guidance, demand outlook, execution capacity, margins, cash conversion and valuation. This automated report does not claim management guidance or an order book unless a dated source document is reviewed.",
+  "concallAndDisclosureSources": [
+    {
+      "label": "Screener financials and concalls search",
+      "url": "https://www.google.com/search?q=HFCL+Limited+HFCL+quarterly+results+investor+presentation+concall+site%3Ascreener.in"
+    },
+    {
+      "label": "NSE corporate announcements",
+      "url": "https://www.nseindia.com/companies-listing/corporate-filings-announcements"
+    },
+    {
+      "label": "Concall transcripts and order-book search",
+      "url": "https://www.google.com/search?q=%22HFCL%22+earnings+call+transcript+investor+presentation+order+book"
+    },
+    {
+      "label": "Company investor-relations search",
+      "url": "https://www.google.com/search?q=HFCL+Limited+HFCL+quarterly+results+investor+presentation+concall+investor+relations"
+    }
+  ],
+  "dataNotes": [
+    "Market and financial data retrieved through yfinance/Yahoo Finance; availability and accounting labels can vary by company. Yahoo Finance debtToEquity is converted from percentage units to a ratio (divide by 100) for comparison with Screener-style ratios.",
+    "Quarterly periods are sorted by quarter-end date, and the report exposes the newest quarter actually returned by Yahoo Finance. Yahoo Finance may lag Screener.in or official exchange filings; compare the displayed quarter-end date with the latest company result before relying on it.",
+    "Concall summaries, management guidance and order-book figures are not automatically extracted in this version; use the source links and verify the original dated disclosure.",
+    "This report is informational research, not investment advice or a buy/sell signal."
+  ]
+}

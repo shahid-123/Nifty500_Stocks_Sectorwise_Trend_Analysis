@@ -1,0 +1,189 @@
+{
+  "symbol": "PVRINOX",
+  "yahooTicker": "PVRINOX.NS",
+  "companyName": "PVR INOX Limited",
+  "generatedAt": "2026-10-27T00:35:48+05:30",
+  "dataAsOf": "2026-10-23",
+  "sector": "Media Entertainment & Publication",
+  "currency": "INR",
+  "price": 1395.7,
+  "technical": {
+    "Sector": "Media Entertainment & Publication",
+    "Price": 1395.6999511719,
+    "Trend": "Uptrend",
+    "Strength Score": 26.0097372572,
+    "RSI 14": 76.1448948816,
+    "20 EMA": 1345.8939051558,
+    "50 EMA": 1270.0895660995,
+    "200 EMA": 1130.4281906117,
+    "1M %": 5.9354801648,
+    "3M %": 38.544760507,
+    "6M %": 38.875617032,
+    "1Y %": 20.6830913248,
+    "From 52W High %": -1.7043505054,
+    "20EMA Slope %": 3.058394539,
+    "Early Reversal": false,
+    "price_above_20ema": true,
+    "price_above_50ema": true,
+    "price_above_200ema": true
+  },
+  "quarterly": {
+    "Revenue": [
+      {
+        "period": "2026-06-30",
+        "value": 16222000000.0
+      },
+      {
+        "period": "2026-03-31",
+        "value": 15473000000.0
+      },
+      {
+        "period": "2025-12-31",
+        "value": 18798000000.0
+      },
+      {
+        "period": "2025-06-30",
+        "value": 14496000000.0
+      }
+    ],
+    "Operating income": [
+      {
+        "period": "2026-06-30",
+        "value": 2140000000.0
+      },
+      {
+        "period": "2026-03-31",
+        "value": 1213000000.0
+      },
+      {
+        "period": "2025-12-31",
+        "value": 3051000000.0
+      },
+      {
+        "period": "2025-06-30",
+        "value": 960000000.0
+      }
+    ],
+    "Net income": [
+      {
+        "period": "2026-06-30",
+        "value": 565000000.0
+      },
+      {
+        "period": "2026-03-31",
+        "value": 1867000000.0
+      },
+      {
+        "period": "2025-12-31",
+        "value": 957000000.0
+      },
+      {
+        "period": "2025-06-30",
+        "value": -540000000.0
+      }
+    ],
+    "Diluted EPS": [
+      {
+        "period": "2026-06-30",
+        "value": 5.73
+      },
+      {
+        "period": "2026-03-31",
+        "value": 18.95
+      },
+      {
+        "period": "2025-12-31",
+        "value": 9.7
+      },
+      {
+        "period": "2025-06-30",
+        "value": -5.51
+      }
+    ],
+    "Operating cash flow": [],
+    "Capital expenditure": [],
+    "Total debt": [
+      {
+        "period": "2026-03-31",
+        "value": 67791000000.0
+      },
+      {
+        "period": "2025-03-31",
+        "value": 77746000000.0
+      }
+    ],
+    "Cash and equivalents": [
+      {
+        "period": "2026-03-31",
+        "value": 5915000000.0
+      },
+      {
+        "period": "2025-03-31",
+        "value": 5288000000.0
+      }
+    ],
+    "Free cash flow (calculated)": []
+  },
+  "valuation": {
+    "Trailing P/E": 50.6929,
+    "Forward P/E": 23.7745,
+    "Price-to-book": 1.8716,
+    "Debt-to-equity": 0.91874,
+    "Return on equity (%)": null,
+    "Profit margin (%)": 6.52,
+    "Operating margin (%)": 13.192,
+    "Market cap": 135035207680.0,
+    "52-week high": 1458.0,
+    "52-week low": 907.4
+  },
+  "quarterlyDataSource": "Yahoo Finance (yfinance)",
+  "latestQuarterAvailable": "2026-06-30",
+  "latestQuarterByMetric": {
+    "Revenue": "2026-06-30",
+    "Operating income": "2026-06-30",
+    "Net income": "2026-06-30",
+    "Diluted EPS": "2026-06-30",
+    "Operating cash flow": null,
+    "Capital expenditure": null,
+    "Total debt": "2026-03-31",
+    "Cash and equivalents": "2026-03-31",
+    "Free cash flow (calculated)": null
+  },
+  "revenueYoYGrowthPct": 11.91,
+  "netIncomeYoYGrowthPct": -204.63,
+  "findings": [
+    "The existing dashboard classifies the stock as an Uptrend.",
+    "Price is above the 20, 50 and 200 EMA values stored in the dashboard.",
+    "Latest available quarterly revenue is +11.9% versus the quarter four periods earlier (provider-reported series).",
+    "Latest available quarterly net income is -204.6% versus the quarter four periods earlier (provider-reported series)."
+  ],
+  "risks": [
+    "RSI is at/above 70, which can indicate an extended move; confirm with price structure and volume.",
+    "Quarterly operating cash-flow data was not returned; do not infer cash conversion quality without a verified source."
+  ],
+  "futureProspects": "Research view only: assess future prospects after verifying the latest company guidance, demand outlook, execution capacity, margins, cash conversion and valuation. This automated report does not claim management guidance or an order book unless a dated source document is reviewed.",
+  "concallAndDisclosureSources": [
+    {
+      "label": "Screener financials and concalls search",
+      "url": "https://www.google.com/search?q=PVR+INOX+Limited+PVRINOX+quarterly+results+investor+presentation+concall+site%3Ascreener.in"
+    },
+    {
+      "label": "NSE corporate announcements",
+      "url": "https://www.nseindia.com/companies-listing/corporate-filings-announcements"
+    },
+    {
+      "label": "Concall transcripts and order-book search",
+      "url": "https://www.google.com/search?q=%22PVRINOX%22+earnings+call+transcript+investor+presentation+order+book"
+    },
+    {
+      "label": "Company investor-relations search",
+      "url": "https://www.google.com/search?q=PVR+INOX+Limited+PVRINOX+quarterly+results+investor+presentation+concall+investor+relations"
+    }
+  ],
+  "dataNotes": [
+    "Market and financial data retrieved through yfinance/Yahoo Finance; availability and accounting labels can vary by company. Yahoo Finance debtToEquity is converted from percentage units to a ratio (divide by 100) for comparison with Screener-style ratios.",
+    "Quarterly periods are sorted by quarter-end date, and the report exposes the newest quarter actually returned by Yahoo Finance. Yahoo Finance may lag Screener.in or official exchange filings; compare the displayed quarter-end date with the latest company result before relying on it.",
+    "Concall summaries, management guidance and order-book figures are not automatically extracted in this version; use the source links and verify the original dated disclosure.",
+    "This report is informational research, not investment advice or a buy/sell signal."
+  ]
+}

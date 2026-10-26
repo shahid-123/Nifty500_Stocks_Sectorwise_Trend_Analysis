@@ -1,0 +1,196 @@
+{
+  "symbol": "PTCIL",
+  "yahooTicker": "PTCIL.NS",
+  "companyName": "PTC Industries Limited",
+  "generatedAt": "2026-10-27T00:35:46+05:30",
+  "dataAsOf": "2026-10-23",
+  "sector": "Capital Goods",
+  "currency": "INR",
+  "price": 23455.0,
+  "technical": {
+    "Sector": "Capital Goods",
+    "Price": 23455.0,
+    "Trend": "Uptrend",
+    "Strength Score": 30.4432864094,
+    "RSI 14": 59.6752368065,
+    "20 EMA": 24008.960254267,
+    "50 EMA": 22581.161988844,
+    "200 EMA": 19290.1310932468,
+    "1M %": 4.9205994185,
+    "3M %": 31.5037003813,
+    "6M %": 46.602912682,
+    "1Y %": 38.7459331559,
+    "From 52W High %": -8.7886447599,
+    "20EMA Slope %": 1.4835959934,
+    "Early Reversal": false,
+    "price_above_20ema": false,
+    "price_above_50ema": true,
+    "price_above_200ema": true
+  },
+  "quarterly": {
+    "Revenue": [
+      {
+        "period": "2026-06-30",
+        "value": 1917975000.0
+      },
+      {
+        "period": "2026-03-31",
+        "value": 2254707000.0
+      },
+      {
+        "period": "2025-12-31",
+        "value": 1555343000.0
+      },
+      {
+        "period": "2025-09-30",
+        "value": 1246254000.0
+      }
+    ],
+    "Operating income": [
+      {
+        "period": "2026-06-30",
+        "value": 350548000.0
+      },
+      {
+        "period": "2026-03-31",
+        "value": 629729000.0
+      },
+      {
+        "period": "2025-12-31",
+        "value": 153216000.0
+      },
+      {
+        "period": "2025-09-30",
+        "value": 166232000.0
+      }
+    ],
+    "Net income": [
+      {
+        "period": "2026-06-30",
+        "value": 291927000.0
+      },
+      {
+        "period": "2026-03-31",
+        "value": 599108000.0
+      },
+      {
+        "period": "2025-12-31",
+        "value": 183541000.0
+      },
+      {
+        "period": "2025-09-30",
+        "value": 181382000.0
+      }
+    ],
+    "Diluted EPS": [
+      {
+        "period": "2026-06-30",
+        "value": 19.46
+      },
+      {
+        "period": "2026-03-31",
+        "value": 39.94
+      },
+      {
+        "period": "2025-12-31",
+        "value": 12.24
+      },
+      {
+        "period": "2025-09-30",
+        "value": 12.09
+      }
+    ],
+    "Operating cash flow": [],
+    "Capital expenditure": [],
+    "Total debt": [
+      {
+        "period": "2026-03-31",
+        "value": 2613420000.0
+      },
+      {
+        "period": "2025-09-30",
+        "value": 1792802000.0
+      },
+      {
+        "period": "2025-03-31",
+        "value": 608335000.0
+      }
+    ],
+    "Cash and equivalents": [
+      {
+        "period": "2026-03-31",
+        "value": 2036876000.0
+      },
+      {
+        "period": "2025-09-30",
+        "value": 3005726000.0
+      },
+      {
+        "period": "2025-03-31",
+        "value": 3923192000.0
+      }
+    ],
+    "Free cash flow (calculated)": []
+  },
+  "valuation": {
+    "Trailing P/E": 276.9616,
+    "Forward P/E": 71.058,
+    "Price-to-book": 22.6141,
+    "Debt-to-equity": 0.17821,
+    "Return on equity (%)": 8.59,
+    "Profit margin (%)": 18.008,
+    "Operating margin (%)": 18.51,
+    "Market cap": 367497707520.0,
+    "52-week high": 26085.0,
+    "52-week low": 14499.0
+  },
+  "quarterlyDataSource": "Yahoo Finance (yfinance)",
+  "latestQuarterAvailable": "2026-06-30",
+  "latestQuarterByMetric": {
+    "Revenue": "2026-06-30",
+    "Operating income": "2026-06-30",
+    "Net income": "2026-06-30",
+    "Diluted EPS": "2026-06-30",
+    "Operating cash flow": null,
+    "Capital expenditure": null,
+    "Total debt": "2026-03-31",
+    "Cash and equivalents": "2026-03-31",
+    "Free cash flow (calculated)": null
+  },
+  "revenueYoYGrowthPct": 53.9,
+  "netIncomeYoYGrowthPct": 60.95,
+  "findings": [
+    "The existing dashboard classifies the stock as an Uptrend.",
+    "Price is above the 200 EMA but is not above all of the 20/50/200 EMA levels.",
+    "Latest available quarterly revenue is +53.9% versus the quarter four periods earlier (provider-reported series).",
+    "Latest available quarterly net income is +61.0% versus the quarter four periods earlier (provider-reported series)."
+  ],
+  "risks": [
+    "Quarterly operating cash-flow data was not returned; do not infer cash conversion quality without a verified source."
+  ],
+  "futureProspects": "Research view only: assess future prospects after verifying the latest company guidance, demand outlook, execution capacity, margins, cash conversion and valuation. This automated report does not claim management guidance or an order book unless a dated source document is reviewed.",
+  "concallAndDisclosureSources": [
+    {
+      "label": "Screener financials and concalls search",
+      "url": "https://www.google.com/search?q=PTC+Industries+Limited+PTCIL+quarterly+results+investor+presentation+concall+site%3Ascreener.in"
+    },
+    {
+      "label": "NSE corporate announcements",
+      "url": "https://www.nseindia.com/companies-listing/corporate-filings-announcements"
+    },
+    {
+      "label": "Concall transcripts and order-book search",
+      "url": "https://www.google.com/search?q=%22PTCIL%22+earnings+call+transcript+investor+presentation+order+book"
+    },
+    {
+      "label": "Company investor-relations search",
+      "url": "https://www.google.com/search?q=PTC+Industries+Limited+PTCIL+quarterly+results+investor+presentation+concall+investor+relations"
+    }
+  ],
+  "dataNotes": [
+    "Market and financial data retrieved through yfinance/Yahoo Finance; availability and accounting labels can vary by company. Yahoo Finance debtToEquity is converted from percentage units to a ratio (divide by 100) for comparison with Screener-style ratios.",
+    "Quarterly periods are sorted by quarter-end date, and the report exposes the newest quarter actually returned by Yahoo Finance. Yahoo Finance may lag Screener.in or official exchange filings; compare the displayed quarter-end date with the latest company result before relying on it.",
+    "Concall summaries, management guidance and order-book figures are not automatically extracted in this version; use the source links and verify the original dated disclosure.",
+    "This report is informational research, not investment advice or a buy/sell signal."
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "symbol": "CRISIL",
+  "yahooTicker": "CRISIL.NS",
+  "companyName": "CRISIL Limited",
+  "generatedAt": "2026-10-27T00:36:08+05:30",
+  "dataAsOf": "2026-10-23",
+  "sector": "Financial Services",
+  "currency": "INR",
+  "price": 4751.1001,
+  "technical": {
+    "Sector": "Financial Services",
+    "Price": 4751.1000976562,
+    "Trend": "Uptrend",
+    "Strength Score": 4.528657132,
+    "RSI 14": 70.0684505289,
+    "20 EMA": 4563.2375993879,
+    "50 EMA": 4525.8418498883,
+    "200 EMA": 4430.1931246468,
+    "1M %": 3.154724459,
+    "3M %": 8.2383482167,
+    "6M %": 9.3744506128,
+    "1Y %": -2.6528947605,
+    "From 52W High %": -4.4537064223,
+    "20EMA Slope %": 1.2674930731,
+    "Early Reversal": false,
+    "price_above_20ema": true,
+    "price_above_50ema": true,
+    "price_above_200ema": true
+  },
+  "quarterly": {
+    "Revenue": [
+      {
+        "period": "2026-06-30",
+        "value": 10753900000.0
+      },
+      {
+        "period": "2026-03-31",
+        "value": 10576600000.0
+      },
+      {
+        "period": "2025-12-31",
+        "value": 10815700000.0
+      },
+      {
+        "period": "2025-06-30",
+        "value": 8430200000.0
+      }
+    ],
+    "Operating income": [
+      {
+        "period": "2026-06-30",
+        "value": 2654000000.0
+      },
+      {
+        "period": "2026-03-31",
+        "value": 2791500000.0
+      },
+      {
+        "period": "2025-12-31",
+        "value": 3044700000.0
+      },
+      {
+        "period": "2025-06-30",
+        "value": 2070800000.0
+      }
+    ],
+    "Net income": [
+      {
+        "period": "2026-06-30",
+        "value": 2164600000.0
+      },
+      {
+        "period": "2026-03-31",
+        "value": 2332600000.0
+      },
+      {
+        "period": "2025-12-31",
+        "value": 2415000000.0
+      },
+      {
+        "period": "2025-06-30",
+        "value": 1715700000.0
+      }
+    ],
+    "Diluted EPS": [
+      {
+        "period": "2026-06-30",
+        "value": 29.6
+      },
+      {
+        "period": "2026-03-31",
+        "value": 31.9
+      },
+      {
+        "period": "2025-12-31",
+        "value": 33.02
+      },
+      {
+        "period": "2025-06-30",
+        "value": 23.46
+      }
+    ],
+    "Operating cash flow": [],
+    "Capital expenditure": [],
+    "Total debt": [
+      {
+        "period": "2026-06-30",
+        "value": 3346600000.0
+      },
+      {
+        "period": "2025-12-31",
+        "value": 2968100000.0
+      },
+      {
+        "period": "2025-06-30",
+        "value": 2980000000.0
+      }
+    ],
+    "Cash and equivalents": [
+      {
+        "period": "2026-06-30",
+        "value": 13529400000.0
+      },
+      {
+        "period": "2025-12-31",
+        "value": 13526700000.0
+      },
+      {
+        "period": "2025-06-30",
+        "value": 13057400000.0
+      }
+    ],
+    "Free cash flow (calculated)": []
+  },
+  "valuation": {
+    "Trailing P/E": 39.0056,
+    "Forward P/E": 32.2171,
+    "Price-to-book": 11.5183,
+    "Debt-to-equity": 0.1023,
+    "Return on equity (%)": 29.052,
+    "Profit margin (%)": 21.434,
+    "Operating margin (%)": 24.679,
+    "Market cap": 349400563712.0,
+    "52-week high": 5064.9,
+    "52-week low": 3686.0
+  },
+  "quarterlyDataSource": "Yahoo Finance (yfinance)",
+  "latestQuarterAvailable": "2026-06-30",
+  "latestQuarterByMetric": {
+    "Revenue": "2026-06-30",
+    "Operating income": "2026-06-30",
+    "Net income": "2026-06-30",
+    "Diluted EPS": "2026-06-30",
+    "Operating cash flow": null,
+    "Capital expenditure": null,
+    "Total debt": "2026-06-30",
+    "Cash and equivalents": "2026-06-30",
+    "Free cash flow (calculated)": null
+  },
+  "revenueYoYGrowthPct": 27.56,
+  "netIncomeYoYGrowthPct": 26.16,
+  "findings": [
+    "The existing dashboard classifies the stock as an Uptrend.",
+    "Price is above the 20, 50 and 200 EMA values stored in the dashboard.",
+    "Latest available quarterly revenue is +27.6% versus the quarter four periods earlier (provider-reported series).",
+    "Latest available quarterly net income is +26.2% versus the quarter four periods earlier (provider-reported series)."
+  ],
+  "risks": [
+    "RSI is at/above 70, which can indicate an extended move; confirm with price structure and volume.",
+    "Quarterly operating cash-flow data was not returned; do not infer cash conversion quality without a verified source."
+  ],
+  "futureProspects": "Research view only: assess future prospects after verifying the latest company guidance, demand outlook, execution capacity, margins, cash conversion and valuation. This automated report does not claim management guidance or an order book unless a dated source document is reviewed.",
+  "concallAndDisclosureSources": [
+    {
+      "label": "Screener financials and concalls search",
+      "url": "https://www.google.com/search?q=CRISIL+Limited+CRISIL+quarterly+results+investor+presentation+concall+site%3Ascreener.in"
+    },
+    {
+      "label": "NSE corporate announcements",
+      "url": "https://www.nseindia.com/companies-listing/corporate-filings-announcements"
+    },
+    {
+      "label": "Concall transcripts and order-book search",
+      "url": "https://www.google.com/search?q=%22CRISIL%22+earnings+call+transcript+investor+presentation+order+book"
+    },
+    {
+      "label": "Company investor-relations search",
+      "url": "https://www.google.com/search?q=CRISIL+Limited+CRISIL+quarterly+results+investor+presentation+concall+investor+relations"
+    }
+  ],
+  "dataNotes": [
+    "Market and financial data retrieved through yfinance/Yahoo Finance; availability and accounting labels can vary by company. Yahoo Finance debtToEquity is converted from percentage units to a ratio (divide by 100) for comparison with Screener-style ratios.",
+    "Quarterly periods are sorted by quarter-end date, and the report exposes the newest quarter actually returned by Yahoo Finance. Yahoo Finance may lag Screener.in or official exchange filings; compare the displayed quarter-end date with the latest company result before relying on it.",
+    "Concall summaries, management guidance and order-book figures are not automatically extracted in this version; use the source links and verify the original dated disclosure.",
+    "This report is informational research, not investment advice or a buy/sell signal."
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "symbol": "ECLERX",
+  "yahooTicker": "ECLERX.NS",
+  "companyName": "eClerx Services Limited",
+  "generatedAt": "2026-10-27T00:36:09+05:30",
+  "dataAsOf": "2026-10-23",
+  "sector": "Services",
+  "currency": "INR",
+  "price": 1891.7,
+  "technical": {
+    "Sector": "Services",
+    "Price": 1891.6999511719,
+    "Trend": "Uptrend",
+    "Strength Score": 3.2840280054,
+    "RSI 14": 59.4468031725,
+    "20 EMA": 1910.6858905092,
+    "50 EMA": 1876.6184609674,
+    "200 EMA": 1798.66285589,
+    "1M %": -1.6890136589,
+    "3M %": 0.1772338908,
+    "6M %": 27.5007515867,
+    "1Y %": -12.852859797,
+    "From 52W High %": -23.4789264932,
+    "20EMA Slope %": 0.4247061008,
+    "Early Reversal": false,
+    "price_above_20ema": false,
+    "price_above_50ema": true,
+    "price_above_200ema": true
+  },
+  "quarterly": {
+    "Revenue": [
+      {
+        "period": "2026-06-30",
+        "value": 11523580000.0
+      },
+      {
+        "period": "2026-03-31",
+        "value": 11072870000.0
+      },
+      {
+        "period": "2025-12-31",
+        "value": 10703320000.0
+      },
+      {
+        "period": "2025-06-30",
+        "value": 9345560000.0
+      }
+    ],
+    "Operating income": [
+      {
+        "period": "2026-06-30",
+        "value": 2156300000.0
+      },
+      {
+        "period": "2026-03-31",
+        "value": 2339260000.0
+      },
+      {
+        "period": "2025-12-31",
+        "value": 2299540000.0
+      },
+      {
+        "period": "2025-06-30",
+        "value": 1872020000.0
+      }
+    ],
+    "Net income": [
+      {
+        "period": "2026-06-30",
+        "value": 1643420000.0
+      },
+      {
+        "period": "2026-03-31",
+        "value": 1893630000.0
+      },
+      {
+        "period": "2025-12-31",
+        "value": 1919760000.0
+      },
+      {
+        "period": "2025-06-30",
+        "value": 1416780000.0
+      }
+    ],
+    "Diluted EPS": [
+      {
+        "period": "2026-06-30",
+        "value": 17.61
+      },
+      {
+        "period": "2026-03-31",
+        "value": 20.04
+      },
+      {
+        "period": "2025-12-31",
+        "value": 19.895
+      },
+      {
+        "period": "2025-09-30",
+        "value": 19.05
+      }
+    ],
+    "Operating cash flow": [],
+    "Capital expenditure": [],
+    "Total debt": [
+      {
+        "period": "2026-03-31",
+        "value": 3849520000.0
+      },
+      {
+        "period": "2025-03-31",
+        "value": 3581270000.0
+      }
+    ],
+    "Cash and equivalents": [
+      {
+        "period": "2026-03-31",
+        "value": 10310430000.0
+      },
+      {
+        "period": "2025-03-31",
+        "value": 10200790000.0
+      }
+    ],
+    "Free cash flow (calculated)": []
+  },
+  "valuation": {
+    "Trailing P/E": 24.5019,
+    "Forward P/E": 19.249,
+    "Price-to-book": 6.7775,
+    "Debt-to-equity": 0.15012,
+    "Return on equity (%)": null,
+    "Profit margin (%)": 16.814,
+    "Operating margin (%)": 18.712,
+    "Market cap": 172694618112.0,
+    "52-week high": 2497.5,
+    "52-week low": 1320.0
+  },
+  "quarterlyDataSource": "Yahoo Finance (yfinance)",
+  "latestQuarterAvailable": "2026-06-30",
+  "latestQuarterByMetric": {
+    "Revenue": "2026-06-30",
+    "Operating income": "2026-06-30",
+    "Net income": "2026-06-30",
+    "Diluted EPS": "2026-06-30",
+    "Operating cash flow": null,
+    "Capital expenditure": null,
+    "Total debt": "2026-03-31",
+    "Cash and equivalents": "2026-03-31",
+    "Free cash flow (calculated)": null
+  },
+  "revenueYoYGrowthPct": 23.31,
+  "netIncomeYoYGrowthPct": 16.0,
+  "findings": [
+    "The existing dashboard classifies the stock as an Uptrend.",
+    "Price is above the 200 EMA but is not above all of the 20/50/200 EMA levels.",
+    "Latest available quarterly revenue is +23.3% versus the quarter four periods earlier (provider-reported series).",
+    "Latest available quarterly net income is +16.0% versus the quarter four periods earlier (provider-reported series)."
+  ],
+  "risks": [
+    "The stock is at least 20% below its 52-week high; verify whether momentum has deteriorated.",
+    "Quarterly operating cash-flow data was not returned; do not infer cash conversion quality without a verified source."
+  ],
+  "futureProspects": "Research view only: assess future prospects after verifying the latest company guidance, demand outlook, execution capacity, margins, cash conversion and valuation. This automated report does not claim management guidance or an order book unless a dated source document is reviewed.",
+  "concallAndDisclosureSources": [
+    {
+      "label": "Screener financials and concalls search",
+      "url": "https://www.google.com/search?q=eClerx+Services+Limited+ECLERX+quarterly+results+investor+presentation+concall+site%3Ascreener.in"
+    },
+    {
+      "label": "NSE corporate announcements",
+      "url": "https://www.nseindia.com/companies-listing/corporate-filings-announcements"
+    },
+    {
+      "label": "Concall transcripts and order-book search",
+      "url": "https://www.google.com/search?q=%22ECLERX%22+earnings+call+transcript+investor+presentation+order+book"
+    },
+    {
+      "label": "Company investor-relations search",
+      "url": "https://www.google.com/search?q=eClerx+Services+Limited+ECLERX+quarterly+results+investor+presentation+concall+investor+relations"
+    }
+  ],
+  "dataNotes": [
+    "Market and financial data retrieved through yfinance/Yahoo Finance; availability and accounting labels can vary by company. Yahoo Finance debtToEquity is converted from percentage units to a ratio (divide by 100) for comparison with Screener-style ratios.",
+    "Quarterly periods are sorted by quarter-end date, and the report exposes the newest quarter actually returned by Yahoo Finance. Yahoo Finance may lag Screener.in or official exchange filings; compare the displayed quarter-end date with the latest company result before relying on it.",
+    "Concall summaries, management guidance and order-book figures are not automatically extracted in this version; use the source links and verify the original dated disclosure.",
+    "This report is informational research, not investment advice or a buy/sell signal."
+  ]
+}

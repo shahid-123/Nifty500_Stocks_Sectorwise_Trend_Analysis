@@ -1,0 +1,196 @@
+{
+  "symbol": "CASTROLIND",
+  "yahooTicker": "CASTROLIND.NS",
+  "companyName": "Castrol India Limited",
+  "generatedAt": "2026-10-27T00:36:06+05:30",
+  "dataAsOf": "2026-10-23",
+  "sector": "Oil Gas & Consumable Fuels",
+  "currency": "INR",
+  "price": 194.64,
+  "technical": {
+    "Sector": "Oil Gas & Consumable Fuels",
+    "Price": 194.6399993896,
+    "Trend": "Uptrend",
+    "Strength Score": 5.5003680408,
+    "RSI 14": 37.9781908294,
+    "20 EMA": 195.8447537903,
+    "50 EMA": 192.333195398,
+    "200 EMA": 184.8540649914,
+    "1M %": 0.7297022684,
+    "3M %": 8.5536714856,
+    "6M %": 9.4039099514,
+    "1Y %": 3.3141884578,
+    "From 52W High %": -3.4858922215,
+    "20EMA Slope %": 0.1958522017,
+    "Early Reversal": false,
+    "price_above_20ema": false,
+    "price_above_50ema": true,
+    "price_above_200ema": true
+  },
+  "quarterly": {
+    "Revenue": [
+      {
+        "period": "2026-06-30",
+        "value": 18714700000.0
+      },
+      {
+        "period": "2026-03-31",
+        "value": 15452400000.0
+      },
+      {
+        "period": "2025-12-31",
+        "value": 14399200000.0
+      },
+      {
+        "period": "2025-06-30",
+        "value": 14968300000.0
+      }
+    ],
+    "Operating income": [
+      {
+        "period": "2026-06-30",
+        "value": 4637300000.0
+      },
+      {
+        "period": "2026-03-31",
+        "value": 3016400000.0
+      },
+      {
+        "period": "2025-12-31",
+        "value": 3433600000.0
+      },
+      {
+        "period": "2025-06-30",
+        "value": 3229000000.0
+      }
+    ],
+    "Net income": [
+      {
+        "period": "2026-06-30",
+        "value": 3477000000.0
+      },
+      {
+        "period": "2026-03-31",
+        "value": 2421800000.0
+      },
+      {
+        "period": "2025-12-31",
+        "value": 2446700000.0
+      },
+      {
+        "period": "2025-06-30",
+        "value": 2440000000.0
+      }
+    ],
+    "Diluted EPS": [
+      {
+        "period": "2026-06-30",
+        "value": 3.51
+      },
+      {
+        "period": "2026-03-31",
+        "value": 2.45
+      },
+      {
+        "period": "2025-12-31",
+        "value": 2.47
+      },
+      {
+        "period": "2025-06-30",
+        "value": 2.47
+      }
+    ],
+    "Operating cash flow": [],
+    "Capital expenditure": [],
+    "Total debt": [
+      {
+        "period": "2026-06-30",
+        "value": 531500000.0
+      },
+      {
+        "period": "2025-12-31",
+        "value": 628100000.0
+      },
+      {
+        "period": "2025-06-30",
+        "value": 731500000.0
+      }
+    ],
+    "Cash and equivalents": [
+      {
+        "period": "2026-06-30",
+        "value": 8706600000.0
+      },
+      {
+        "period": "2025-12-31",
+        "value": 11231300000.0
+      },
+      {
+        "period": "2025-06-30",
+        "value": 8732800000.0
+      }
+    ],
+    "Free cash flow (calculated)": []
+  },
+  "valuation": {
+    "Trailing P/E": 17.7801,
+    "Forward P/E": 16.3634,
+    "Price-to-book": 9.9303,
+    "Debt-to-equity": 0.027839999999999997,
+    "Return on equity (%)": 56.996,
+    "Profit margin (%)": 17.066,
+    "Operating margin (%)": 24.779,
+    "Market cap": 188704768000.0,
+    "52-week high": 203.4,
+    "52-week low": 170.1
+  },
+  "quarterlyDataSource": "Yahoo Finance (yfinance)",
+  "latestQuarterAvailable": "2026-06-30",
+  "latestQuarterByMetric": {
+    "Revenue": "2026-06-30",
+    "Operating income": "2026-06-30",
+    "Net income": "2026-06-30",
+    "Diluted EPS": "2026-06-30",
+    "Operating cash flow": null,
+    "Capital expenditure": null,
+    "Total debt": "2026-06-30",
+    "Cash and equivalents": "2026-06-30",
+    "Free cash flow (calculated)": null
+  },
+  "revenueYoYGrowthPct": 25.03,
+  "netIncomeYoYGrowthPct": 42.5,
+  "findings": [
+    "The existing dashboard classifies the stock as an Uptrend.",
+    "Price is above the 200 EMA but is not above all of the 20/50/200 EMA levels.",
+    "Latest available quarterly revenue is +25.0% versus the quarter four periods earlier (provider-reported series).",
+    "Latest available quarterly net income is +42.5% versus the quarter four periods earlier (provider-reported series)."
+  ],
+  "risks": [
+    "Quarterly operating cash-flow data was not returned; do not infer cash conversion quality without a verified source."
+  ],
+  "futureProspects": "Research view only: assess future prospects after verifying the latest company guidance, demand outlook, execution capacity, margins, cash conversion and valuation. This automated report does not claim management guidance or an order book unless a dated source document is reviewed.",
+  "concallAndDisclosureSources": [
+    {
+      "label": "Screener financials and concalls search",
+      "url": "https://www.google.com/search?q=Castrol+India+Limited+CASTROLIND+quarterly+results+investor+presentation+concall+site%3Ascreener.in"
+    },
+    {
+      "label": "NSE corporate announcements",
+      "url": "https://www.nseindia.com/companies-listing/corporate-filings-announcements"
+    },
+    {
+      "label": "Concall transcripts and order-book search",
+      "url": "https://www.google.com/search?q=%22CASTROLIND%22+earnings+call+transcript+investor+presentation+order+book"
+    },
+    {
+      "label": "Company investor-relations search",
+      "url": "https://www.google.com/search?q=Castrol+India+Limited+CASTROLIND+quarterly+results+investor+presentation+concall+investor+relations"
+    }
+  ],
+  "dataNotes": [
+    "Market and financial data retrieved through yfinance/Yahoo Finance; availability and accounting labels can vary by company. Yahoo Finance debtToEquity is converted from percentage units to a ratio (divide by 100) for comparison with Screener-style ratios.",
+    "Quarterly periods are sorted by quarter-end date, and the report exposes the newest quarter actually returned by Yahoo Finance. Yahoo Finance may lag Screener.in or official exchange filings; compare the displayed quarter-end date with the latest company result before relying on it.",
+    "Concall summaries, management guidance and order-book figures are not automatically extracted in this version; use the source links and verify the original dated disclosure.",
+    "This report is informational research, not investment advice or a buy/sell signal."
+  ]
+}

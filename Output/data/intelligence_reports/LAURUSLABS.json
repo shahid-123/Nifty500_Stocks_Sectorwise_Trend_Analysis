@@ -1,0 +1,188 @@
+{
+  "symbol": "LAURUSLABS",
+  "yahooTicker": "LAURUSLABS.NS",
+  "companyName": "Laurus Labs Limited",
+  "generatedAt": "2026-10-27T00:35:43+05:30",
+  "dataAsOf": "2026-10-23",
+  "sector": "Healthcare",
+  "currency": "INR",
+  "price": 1970.0,
+  "technical": {
+    "Sector": "Healthcare",
+    "Price": 1970.0,
+    "Trend": "Uptrend",
+    "Strength Score": 52.0865370073,
+    "RSI 14": 48.3349187379,
+    "20 EMA": 2009.4274228087,
+    "50 EMA": 1927.7995732727,
+    "200 EMA": 1519.2305125373,
+    "1M %": -3.1465093412,
+    "3M %": 25.6137179535,
+    "6M %": 74.6644242821,
+    "1Y %": 111.2145151346,
+    "From 52W High %": -4.7941210861,
+    "20EMA Slope %": 0.2735535181,
+    "Early Reversal": false,
+    "price_above_20ema": false,
+    "price_above_50ema": true,
+    "price_above_200ema": true
+  },
+  "quarterly": {
+    "Revenue": [
+      {
+        "period": "2026-06-30",
+        "value": 20263100000.0
+      },
+      {
+        "period": "2026-03-31",
+        "value": 18115700000.0
+      },
+      {
+        "period": "2025-12-31",
+        "value": 17782900000.0
+      },
+      {
+        "period": "2025-06-30",
+        "value": 15695700000.0
+      }
+    ],
+    "Operating income": [
+      {
+        "period": "2026-06-30",
+        "value": 5144000000.0
+      },
+      {
+        "period": "2026-03-31",
+        "value": 3900100000.0
+      },
+      {
+        "period": "2025-12-31",
+        "value": 3595900000.0
+      },
+      {
+        "period": "2025-06-30",
+        "value": 2652900000.0
+      }
+    ],
+    "Net income": [
+      {
+        "period": "2026-06-30",
+        "value": 3676000000.0
+      },
+      {
+        "period": "2026-03-31",
+        "value": 2791400000.0
+      },
+      {
+        "period": "2025-12-31",
+        "value": 2516600000.0
+      },
+      {
+        "period": "2025-06-30",
+        "value": 1630200000.0
+      }
+    ],
+    "Diluted EPS": [
+      {
+        "period": "2026-06-30",
+        "value": 6.8
+      },
+      {
+        "period": "2026-03-31",
+        "value": 5.17
+      },
+      {
+        "period": "2025-12-31",
+        "value": 4.65
+      },
+      {
+        "period": "2025-06-30",
+        "value": 3.02
+      }
+    ],
+    "Operating cash flow": [],
+    "Capital expenditure": [],
+    "Total debt": [
+      {
+        "period": "2026-03-31",
+        "value": 25184800000.0
+      },
+      {
+        "period": "2025-03-31",
+        "value": 27637300000.0
+      }
+    ],
+    "Cash and equivalents": [
+      {
+        "period": "2026-03-31",
+        "value": 1126500000.0
+      },
+      {
+        "period": "2025-03-31",
+        "value": 995400000.0
+      }
+    ],
+    "Free cash flow (calculated)": []
+  },
+  "valuation": {
+    "Trailing P/E": 101.7746,
+    "Forward P/E": 68.6422,
+    "Price-to-book": 20.9717,
+    "Debt-to-equity": 0.46369,
+    "Return on equity (%)": null,
+    "Profit margin (%)": 15.04,
+    "Operating margin (%)": 25.386,
+    "Market cap": 1112448696320.0,
+    "52-week high": 2089.0,
+    "52-week low": 917.95
+  },
+  "quarterlyDataSource": "Yahoo Finance (yfinance)",
+  "latestQuarterAvailable": "2026-06-30",
+  "latestQuarterByMetric": {
+    "Revenue": "2026-06-30",
+    "Operating income": "2026-06-30",
+    "Net income": "2026-06-30",
+    "Diluted EPS": "2026-06-30",
+    "Operating cash flow": null,
+    "Capital expenditure": null,
+    "Total debt": "2026-03-31",
+    "Cash and equivalents": "2026-03-31",
+    "Free cash flow (calculated)": null
+  },
+  "revenueYoYGrowthPct": 29.1,
+  "netIncomeYoYGrowthPct": 125.49,
+  "findings": [
+    "The existing dashboard classifies the stock as an Uptrend.",
+    "Price is above the 200 EMA but is not above all of the 20/50/200 EMA levels.",
+    "Latest available quarterly revenue is +29.1% versus the quarter four periods earlier (provider-reported series).",
+    "Latest available quarterly net income is +125.5% versus the quarter four periods earlier (provider-reported series)."
+  ],
+  "risks": [
+    "Quarterly operating cash-flow data was not returned; do not infer cash conversion quality without a verified source."
+  ],
+  "futureProspects": "Research view only: assess future prospects after verifying the latest company guidance, demand outlook, execution capacity, margins, cash conversion and valuation. This automated report does not claim management guidance or an order book unless a dated source document is reviewed.",
+  "concallAndDisclosureSources": [
+    {
+      "label": "Screener financials and concalls search",
+      "url": "https://www.google.com/search?q=Laurus+Labs+Limited+LAURUSLABS+quarterly+results+investor+presentation+concall+site%3Ascreener.in"
+    },
+    {
+      "label": "NSE corporate announcements",
+      "url": "https://www.nseindia.com/companies-listing/corporate-filings-announcements"
+    },
+    {
+      "label": "Concall transcripts and order-book search",
+      "url": "https://www.google.com/search?q=%22LAURUSLABS%22+earnings+call+transcript+investor+presentation+order+book"
+    },
+    {
+      "label": "Company investor-relations search",
+      "url": "https://www.google.com/search?q=Laurus+Labs+Limited+LAURUSLABS+quarterly+results+investor+presentation+concall+investor+relations"
+    }
+  ],
+  "dataNotes": [
+    "Market and financial data retrieved through yfinance/Yahoo Finance; availability and accounting labels can vary by company. Yahoo Finance debtToEquity is converted from percentage units to a ratio (divide by 100) for comparison with Screener-style ratios.",
+    "Quarterly periods are sorted by quarter-end date, and the report exposes the newest quarter actually returned by Yahoo Finance. Yahoo Finance may lag Screener.in or official exchange filings; compare the displayed quarter-end date with the latest company result before relying on it.",
+    "Concall summaries, management guidance and order-book figures are not automatically extracted in this version; use the source links and verify the original dated disclosure.",
+    "This report is informational research, not investment advice or a buy/sell signal."
+  ]
+}

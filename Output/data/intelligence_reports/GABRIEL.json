@@ -1,0 +1,196 @@
+{
+  "symbol": "GABRIEL",
+  "yahooTicker": "GABRIEL.NS",
+  "companyName": "Gabriel India Limited",
+  "generatedAt": "2026-10-27T00:35:58+05:30",
+  "dataAsOf": "2026-10-23",
+  "sector": "Automobile and Auto Components",
+  "currency": "INR",
+  "price": 1370.7,
+  "technical": {
+    "Sector": "Automobile and Auto Components",
+    "Price": 1370.6999511719,
+    "Trend": "Uptrend",
+    "Strength Score": 10.8998776707,
+    "RSI 14": 57.4286430623,
+    "20 EMA": 1387.6606987675,
+    "50 EMA": 1370.2902624465,
+    "200 EMA": 1209.6113711935,
+    "1M %": -4.019328156,
+    "3M %": -0.302242379,
+    "6M %": 37.6633405836,
+    "1Y %": 10.2577406341,
+    "From 52W High %": -13.4889464477,
+    "20EMA Slope %": 1.0634947371,
+    "Early Reversal": false,
+    "price_above_20ema": false,
+    "price_above_50ema": true,
+    "price_above_200ema": true
+  },
+  "quarterly": {
+    "Revenue": [
+      {
+        "period": "2026-06-30",
+        "value": 14256830000.0
+      },
+      {
+        "period": "2026-03-31",
+        "value": 12095930000.0
+      },
+      {
+        "period": "2025-12-31",
+        "value": 11786560000.0
+      },
+      {
+        "period": "2025-09-30",
+        "value": 11803030000.0
+      }
+    ],
+    "Operating income": [
+      {
+        "period": "2026-06-30",
+        "value": 918640000.0
+      },
+      {
+        "period": "2026-03-31",
+        "value": 883680000.0
+      },
+      {
+        "period": "2025-12-31",
+        "value": 813990000.0
+      },
+      {
+        "period": "2025-09-30",
+        "value": 877780000.0
+      }
+    ],
+    "Net income": [
+      {
+        "period": "2026-06-30",
+        "value": 1073510000.0
+      },
+      {
+        "period": "2026-03-31",
+        "value": 666100000.0
+      },
+      {
+        "period": "2025-12-31",
+        "value": 546660000.0
+      },
+      {
+        "period": "2025-09-30",
+        "value": 690280000.0
+      }
+    ],
+    "Diluted EPS": [
+      {
+        "period": "2026-06-30",
+        "value": 6.06
+      },
+      {
+        "period": "2026-03-31",
+        "value": 4.63
+      },
+      {
+        "period": "2025-12-31",
+        "value": 3.81
+      },
+      {
+        "period": "2025-09-30",
+        "value": 4.81
+      }
+    ],
+    "Operating cash flow": [],
+    "Capital expenditure": [],
+    "Total debt": [
+      {
+        "period": "2026-03-31",
+        "value": 1481180000.0
+      },
+      {
+        "period": "2025-09-30",
+        "value": 1037610000.0
+      },
+      {
+        "period": "2025-03-31",
+        "value": 690860000.0
+      }
+    ],
+    "Cash and equivalents": [
+      {
+        "period": "2026-03-31",
+        "value": 3301710000.0
+      },
+      {
+        "period": "2025-09-30",
+        "value": 2633330000.0
+      },
+      {
+        "period": "2025-03-31",
+        "value": 2450940000.0
+      }
+    ],
+    "Free cash flow (calculated)": []
+  },
+  "valuation": {
+    "Trailing P/E": 72.2061,
+    "Forward P/E": 34.258,
+    "Price-to-book": 14.6552,
+    "Debt-to-equity": 0.10642,
+    "Return on equity (%)": null,
+    "Profit margin (%)": 5.236,
+    "Operating margin (%)": 6.444,
+    "Market cap": 267195613184.0,
+    "52-week high": 1600.0,
+    "52-week low": 795.7
+  },
+  "quarterlyDataSource": "Yahoo Finance (yfinance)",
+  "latestQuarterAvailable": "2026-06-30",
+  "latestQuarterByMetric": {
+    "Revenue": "2026-06-30",
+    "Operating income": "2026-06-30",
+    "Net income": "2026-06-30",
+    "Diluted EPS": "2026-06-30",
+    "Operating cash flow": null,
+    "Capital expenditure": null,
+    "Total debt": "2026-03-31",
+    "Cash and equivalents": "2026-03-31",
+    "Free cash flow (calculated)": null
+  },
+  "revenueYoYGrowthPct": 20.79,
+  "netIncomeYoYGrowthPct": 55.52,
+  "findings": [
+    "The existing dashboard classifies the stock as an Uptrend.",
+    "Price is above the 200 EMA but is not above all of the 20/50/200 EMA levels.",
+    "Latest available quarterly revenue is +20.8% versus the quarter four periods earlier (provider-reported series).",
+    "Latest available quarterly net income is +55.5% versus the quarter four periods earlier (provider-reported series)."
+  ],
+  "risks": [
+    "Quarterly operating cash-flow data was not returned; do not infer cash conversion quality without a verified source."
+  ],
+  "futureProspects": "Research view only: assess future prospects after verifying the latest company guidance, demand outlook, execution capacity, margins, cash conversion and valuation. This automated report does not claim management guidance or an order book unless a dated source document is reviewed.",
+  "concallAndDisclosureSources": [
+    {
+      "label": "Screener financials and concalls search",
+      "url": "https://www.google.com/search?q=Gabriel+India+Limited+GABRIEL+quarterly+results+investor+presentation+concall+site%3Ascreener.in"
+    },
+    {
+      "label": "NSE corporate announcements",
+      "url": "https://www.nseindia.com/companies-listing/corporate-filings-announcements"
+    },
+    {
+      "label": "Concall transcripts and order-book search",
+      "url": "https://www.google.com/search?q=%22GABRIEL%22+earnings+call+transcript+investor+presentation+order+book"
+    },
+    {
+      "label": "Company investor-relations search",
+      "url": "https://www.google.com/search?q=Gabriel+India+Limited+GABRIEL+quarterly+results+investor+presentation+concall+investor+relations"
+    }
+  ],
+  "dataNotes": [
+    "Market and financial data retrieved through yfinance/Yahoo Finance; availability and accounting labels can vary by company. Yahoo Finance debtToEquity is converted from percentage units to a ratio (divide by 100) for comparison with Screener-style ratios.",
+    "Quarterly periods are sorted by quarter-end date, and the report exposes the newest quarter actually returned by Yahoo Finance. Yahoo Finance may lag Screener.in or official exchange filings; compare the displayed quarter-end date with the latest company result before relying on it.",
+    "Concall summaries, management guidance and order-book figures are not automatically extracted in this version; use the source links and verify the original dated disclosure.",
+    "This report is informational research, not investment advice or a buy/sell signal."
+  ]
+}

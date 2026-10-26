@@ -1,0 +1,196 @@
+{
+  "symbol": "CPPLUS",
+  "yahooTicker": "CPPLUS.NS",
+  "companyName": "Aditya Infotech Limited",
+  "generatedAt": "2026-10-27T00:35:41+05:30",
+  "dataAsOf": "2026-10-23",
+  "sector": "Capital Goods",
+  "currency": "INR",
+  "price": 3798.0,
+  "technical": {
+    "Sector": "Capital Goods",
+    "Price": 3798.0,
+    "Trend": "Uptrend",
+    "Strength Score": 60.3161583736,
+    "RSI 14": 49.9499406223,
+    "20 EMA": 3954.9676095515,
+    "50 EMA": 3793.322508434,
+    "200 EMA": 2967.7412351058,
+    "1M %": -0.884676093,
+    "3M %": 5.1320350255,
+    "6M %": 67.5141796245,
+    "1Y %": 169.5030949374,
+    "From 52W High %": -14.4652350729,
+    "20EMA Slope %": -0.5155057834,
+    "Early Reversal": false,
+    "price_above_20ema": false,
+    "price_above_50ema": true,
+    "price_above_200ema": true
+  },
+  "quarterly": {
+    "Revenue": [
+      {
+        "period": "2026-06-30",
+        "value": 14024190000.0
+      },
+      {
+        "period": "2026-03-31",
+        "value": 14220290000.0
+      },
+      {
+        "period": "2025-12-31",
+        "value": 11391100000.0
+      },
+      {
+        "period": "2025-09-30",
+        "value": 9196360000.0
+      }
+    ],
+    "Operating income": [
+      {
+        "period": "2026-06-30",
+        "value": 1908340000.0
+      },
+      {
+        "period": "2026-03-31",
+        "value": 2340210000.0
+      },
+      {
+        "period": "2025-12-31",
+        "value": 1276330000.0
+      },
+      {
+        "period": "2025-09-30",
+        "value": 978900000.0
+      }
+    ],
+    "Net income": [
+      {
+        "period": "2026-06-30",
+        "value": 1422000000.0
+      },
+      {
+        "period": "2026-03-31",
+        "value": 1691280000.0
+      },
+      {
+        "period": "2025-12-31",
+        "value": 959800000.0
+      },
+      {
+        "period": "2025-09-30",
+        "value": 699750000.0
+      }
+    ],
+    "Diluted EPS": [
+      {
+        "period": "2026-06-30",
+        "value": 12.07
+      },
+      {
+        "period": "2026-03-31",
+        "value": 14.37
+      },
+      {
+        "period": "2025-12-31",
+        "value": 8.18
+      },
+      {
+        "period": "2025-09-30",
+        "value": 6.24
+      }
+    ],
+    "Operating cash flow": [],
+    "Capital expenditure": [],
+    "Total debt": [
+      {
+        "period": "2026-03-31",
+        "value": 1802590000.0
+      },
+      {
+        "period": "2025-09-30",
+        "value": 1275660000.0
+      },
+      {
+        "period": "2025-03-31",
+        "value": 4573100000.0
+      }
+    ],
+    "Cash and equivalents": [
+      {
+        "period": "2026-03-31",
+        "value": 1704530000.0
+      },
+      {
+        "period": "2025-09-30",
+        "value": 3681810000.0
+      },
+      {
+        "period": "2025-03-31",
+        "value": 1367140000.0
+      }
+    ],
+    "Free cash flow (calculated)": []
+  },
+  "valuation": {
+    "Trailing P/E": 94.65,
+    "Forward P/E": 51.1223,
+    "Price-to-book": 24.2732,
+    "Debt-to-equity": 0.09603999999999999,
+    "Return on equity (%)": null,
+    "Profit margin (%)": 9.774,
+    "Operating margin (%)": 13.607,
+    "Market cap": 474247430144.0,
+    "52-week high": 4620.0,
+    "52-week low": 1304.0
+  },
+  "quarterlyDataSource": "Yahoo Finance (yfinance)",
+  "latestQuarterAvailable": "2026-06-30",
+  "latestQuarterByMetric": {
+    "Revenue": "2026-06-30",
+    "Operating income": "2026-06-30",
+    "Net income": "2026-06-30",
+    "Diluted EPS": "2026-06-30",
+    "Operating cash flow": null,
+    "Capital expenditure": null,
+    "Total debt": "2026-03-31",
+    "Cash and equivalents": "2026-03-31",
+    "Free cash flow (calculated)": null
+  },
+  "revenueYoYGrowthPct": 52.5,
+  "netIncomeYoYGrowthPct": 103.22,
+  "findings": [
+    "The existing dashboard classifies the stock as an Uptrend.",
+    "Price is above the 200 EMA but is not above all of the 20/50/200 EMA levels.",
+    "Latest available quarterly revenue is +52.5% versus the quarter four periods earlier (provider-reported series).",
+    "Latest available quarterly net income is +103.2% versus the quarter four periods earlier (provider-reported series)."
+  ],
+  "risks": [
+    "Quarterly operating cash-flow data was not returned; do not infer cash conversion quality without a verified source."
+  ],
+  "futureProspects": "Research view only: assess future prospects after verifying the latest company guidance, demand outlook, execution capacity, margins, cash conversion and valuation. This automated report does not claim management guidance or an order book unless a dated source document is reviewed.",
+  "concallAndDisclosureSources": [
+    {
+      "label": "Screener financials and concalls search",
+      "url": "https://www.google.com/search?q=Aditya+Infotech+Limited+CPPLUS+quarterly+results+investor+presentation+concall+site%3Ascreener.in"
+    },
+    {
+      "label": "NSE corporate announcements",
+      "url": "https://www.nseindia.com/companies-listing/corporate-filings-announcements"
+    },
+    {
+      "label": "Concall transcripts and order-book search",
+      "url": "https://www.google.com/search?q=%22CPPLUS%22+earnings+call+transcript+investor+presentation+order+book"
+    },
+    {
+      "label": "Company investor-relations search",
+      "url": "https://www.google.com/search?q=Aditya+Infotech+Limited+CPPLUS+quarterly+results+investor+presentation+concall+investor+relations"
+    }
+  ],
+  "dataNotes": [
+    "Market and financial data retrieved through yfinance/Yahoo Finance; availability and accounting labels can vary by company. Yahoo Finance debtToEquity is converted from percentage units to a ratio (divide by 100) for comparison with Screener-style ratios.",
+    "Quarterly periods are sorted by quarter-end date, and the report exposes the newest quarter actually returned by Yahoo Finance. Yahoo Finance may lag Screener.in or official exchange filings; compare the displayed quarter-end date with the latest company result before relying on it.",
+    "Concall summaries, management guidance and order-book figures are not automatically extracted in this version; use the source links and verify the original dated disclosure.",
+    "This report is informational research, not investment advice or a buy/sell signal."
+  ]
+}

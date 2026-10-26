@@ -1,0 +1,196 @@
+{
+  "symbol": "STLTECH",
+  "yahooTicker": "STLTECH.NS",
+  "companyName": "Sterlite Technologies Limited",
+  "generatedAt": "2026-10-27T00:35:37+05:30",
+  "dataAsOf": "2026-10-23",
+  "sector": "Telecommunication",
+  "currency": "INR",
+  "price": 826.65,
+  "technical": {
+    "Sector": "Telecommunication",
+    "Price": 826.6500244141,
+    "Trend": "Uptrend",
+    "Strength Score": 216.6558068297,
+    "RSI 14": 31.7808713925,
+    "20 EMA": 885.4322609342,
+    "50 EMA": 816.0360310542,
+    "200 EMA": 535.5712735652,
+    "1M %": -4.6649697049,
+    "3M %": 50.6149332578,
+    "6M %": 199.0233271522,
+    "1Y %": 621.6499366138,
+    "From 52W High %": -18.7008227441,
+    "20EMA Slope %": -3.1257082334,
+    "Early Reversal": false,
+    "price_above_20ema": false,
+    "price_above_50ema": true,
+    "price_above_200ema": true
+  },
+  "quarterly": {
+    "Revenue": [
+      {
+        "period": "2026-09-30",
+        "value": 25290000000.0
+      },
+      {
+        "period": "2026-06-30",
+        "value": 19100000000.0
+      },
+      {
+        "period": "2026-03-31",
+        "value": 14410000000.0
+      },
+      {
+        "period": "2025-12-31",
+        "value": 12570000000.0
+      }
+    ],
+    "Operating income": [
+      {
+        "period": "2026-09-30",
+        "value": 7420000000.0
+      },
+      {
+        "period": "2026-06-30",
+        "value": 3000000000.0
+      },
+      {
+        "period": "2026-03-31",
+        "value": 1350000000.0
+      },
+      {
+        "period": "2025-12-31",
+        "value": 410000000.0
+      }
+    ],
+    "Net income": [
+      {
+        "period": "2026-09-30",
+        "value": 5170000000.0
+      },
+      {
+        "period": "2026-06-30",
+        "value": 1970000000.0
+      },
+      {
+        "period": "2026-03-31",
+        "value": 590000000.0
+      },
+      {
+        "period": "2025-12-31",
+        "value": -170000000.0
+      }
+    ],
+    "Diluted EPS": [
+      {
+        "period": "2026-09-30",
+        "value": 9.36
+      },
+      {
+        "period": "2026-06-30",
+        "value": 3.71
+      },
+      {
+        "period": "2026-03-31",
+        "value": 1.21
+      },
+      {
+        "period": "2025-12-31",
+        "value": -0.35
+      }
+    ],
+    "Operating cash flow": [],
+    "Capital expenditure": [],
+    "Total debt": [
+      {
+        "period": "2026-09-30",
+        "value": 12820000000.0
+      },
+      {
+        "period": "2026-03-31",
+        "value": 19420000000.0
+      },
+      {
+        "period": "2025-03-31",
+        "value": 19260000000.0
+      }
+    ],
+    "Cash and equivalents": [
+      {
+        "period": "2026-09-30",
+        "value": 13340000000.0
+      },
+      {
+        "period": "2026-03-31",
+        "value": 3120000000.0
+      },
+      {
+        "period": "2025-03-31",
+        "value": 4530000000.0
+      }
+    ],
+    "Free cash flow (calculated)": []
+  },
+  "valuation": {
+    "Trailing P/E": 63.0945,
+    "Forward P/E": 24.2247,
+    "Price-to-book": 9.8167,
+    "Debt-to-equity": 0.2177,
+    "Return on equity (%)": 22.92,
+    "Profit margin (%)": 10.593,
+    "Operating margin (%)": 27.798,
+    "Market cap": 445970513920.0,
+    "52-week high": 1051.1,
+    "52-week low": 84.6
+  },
+  "quarterlyDataSource": "Yahoo Finance (yfinance)",
+  "latestQuarterAvailable": "2026-09-30",
+  "latestQuarterByMetric": {
+    "Revenue": "2026-09-30",
+    "Operating income": "2026-09-30",
+    "Net income": "2026-09-30",
+    "Diluted EPS": "2026-09-30",
+    "Operating cash flow": null,
+    "Capital expenditure": null,
+    "Total debt": "2026-09-30",
+    "Cash and equivalents": "2026-09-30",
+    "Free cash flow (calculated)": null
+  },
+  "revenueYoYGrowthPct": 101.19,
+  "netIncomeYoYGrowthPct": -3141.18,
+  "findings": [
+    "The existing dashboard classifies the stock as an Uptrend.",
+    "Price is above the 200 EMA but is not above all of the 20/50/200 EMA levels.",
+    "Latest available quarterly revenue is +101.2% versus the quarter four periods earlier (provider-reported series).",
+    "Latest available quarterly net income is -3141.2% versus the quarter four periods earlier (provider-reported series)."
+  ],
+  "risks": [
+    "Quarterly operating cash-flow data was not returned; do not infer cash conversion quality without a verified source."
+  ],
+  "futureProspects": "Research view only: assess future prospects after verifying the latest company guidance, demand outlook, execution capacity, margins, cash conversion and valuation. This automated report does not claim management guidance or an order book unless a dated source document is reviewed.",
+  "concallAndDisclosureSources": [
+    {
+      "label": "Screener financials and concalls search",
+      "url": "https://www.google.com/search?q=Sterlite+Technologies+Limited+STLTECH+quarterly+results+investor+presentation+concall+site%3Ascreener.in"
+    },
+    {
+      "label": "NSE corporate announcements",
+      "url": "https://www.nseindia.com/companies-listing/corporate-filings-announcements"
+    },
+    {
+      "label": "Concall transcripts and order-book search",
+      "url": "https://www.google.com/search?q=%22STLTECH%22+earnings+call+transcript+investor+presentation+order+book"
+    },
+    {
+      "label": "Company investor-relations search",
+      "url": "https://www.google.com/search?q=Sterlite+Technologies+Limited+STLTECH+quarterly+results+investor+presentation+concall+investor+relations"
+    }
+  ],
+  "dataNotes": [
+    "Market and financial data retrieved through yfinance/Yahoo Finance; availability and accounting labels can vary by company. Yahoo Finance debtToEquity is converted from percentage units to a ratio (divide by 100) for comparison with Screener-style ratios.",
+    "Quarterly periods are sorted by quarter-end date, and the report exposes the newest quarter actually returned by Yahoo Finance. Yahoo Finance may lag Screener.in or official exchange filings; compare the displayed quarter-end date with the latest company result before relying on it.",
+    "Concall summaries, management guidance and order-book figures are not automatically extracted in this version; use the source links and verify the original dated disclosure.",
+    "This report is informational research, not investment advice or a buy/sell signal."
+  ]
+}

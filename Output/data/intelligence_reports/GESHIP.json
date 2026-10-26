@@ -1,0 +1,196 @@
+{
+  "symbol": "GESHIP",
+  "yahooTicker": "GESHIP.NS",
+  "companyName": "The Great Eastern Shipping Company Limited",
+  "generatedAt": "2026-10-27T00:35:56+05:30",
+  "dataAsOf": "2026-10-23",
+  "sector": "Services",
+  "currency": "INR",
+  "price": 1496.6,
+  "technical": {
+    "Sector": "Services",
+    "Price": 1496.5999755859,
+    "Trend": "Uptrend",
+    "Strength Score": 16.2335284115,
+    "RSI 14": 44.3484097598,
+    "20 EMA": 1505.7384066057,
+    "50 EMA": 1461.1093395952,
+    "200 EMA": 1355.4355371649,
+    "1M %": 0.8626449883,
+    "3M %": 4.9102454836,
+    "6M %": 7.6842601842,
+    "1Y %": 51.47696299,
+    "From 52W High %": -12.0318154005,
+    "20EMA Slope %": 0.1474788518,
+    "Early Reversal": false,
+    "price_above_20ema": false,
+    "price_above_50ema": true,
+    "price_above_200ema": true
+  },
+  "quarterly": {
+    "Revenue": [
+      {
+        "period": "2026-06-30",
+        "value": 20053600000.0
+      },
+      {
+        "period": "2026-03-31",
+        "value": 15114000000.0
+      },
+      {
+        "period": "2025-12-31",
+        "value": 14544400000.0
+      },
+      {
+        "period": "2025-09-30",
+        "value": 12417800000.0
+      }
+    ],
+    "Operating income": [
+      {
+        "period": "2026-06-30",
+        "value": 10915400000.0
+      },
+      {
+        "period": "2026-03-31",
+        "value": 5609100000.0
+      },
+      {
+        "period": "2025-12-31",
+        "value": 5553100000.0
+      },
+      {
+        "period": "2025-09-30",
+        "value": 4313200000.0
+      }
+    ],
+    "Net income": [
+      {
+        "period": "2026-06-30",
+        "value": 13088400000.0
+      },
+      {
+        "period": "2026-03-31",
+        "value": 10440900000.0
+      },
+      {
+        "period": "2025-12-31",
+        "value": 8125200000.0
+      },
+      {
+        "period": "2025-09-30",
+        "value": 5814100000.0
+      }
+    ],
+    "Diluted EPS": [
+      {
+        "period": "2026-06-30",
+        "value": 91.49
+      },
+      {
+        "period": "2026-03-31",
+        "value": 72.98
+      },
+      {
+        "period": "2025-12-31",
+        "value": 56.8
+      },
+      {
+        "period": "2025-09-30",
+        "value": 40.64
+      }
+    ],
+    "Operating cash flow": [],
+    "Capital expenditure": [],
+    "Total debt": [
+      {
+        "period": "2026-03-31",
+        "value": 10871500000.0
+      },
+      {
+        "period": "2025-09-30",
+        "value": 12538800000.0
+      },
+      {
+        "period": "2025-03-31",
+        "value": 21630100000.0
+      }
+    ],
+    "Cash and equivalents": [
+      {
+        "period": "2026-03-31",
+        "value": 79394300000.0
+      },
+      {
+        "period": "2025-09-30",
+        "value": 84084100000.0
+      },
+      {
+        "period": "2025-03-31",
+        "value": 79397200000.0
+      }
+    ],
+    "Free cash flow (calculated)": []
+  },
+  "valuation": {
+    "Trailing P/E": 5.8509,
+    "Forward P/E": 7.4067,
+    "Price-to-book": 1.2898,
+    "Debt-to-equity": 0.06409,
+    "Return on equity (%)": null,
+    "Profit margin (%)": 60.307,
+    "Operating margin (%)": 54.431,
+    "Market cap": 210899091456.0,
+    "52-week high": 1798.0,
+    "52-week low": 1021.0
+  },
+  "quarterlyDataSource": "Yahoo Finance (yfinance)",
+  "latestQuarterAvailable": "2026-06-30",
+  "latestQuarterByMetric": {
+    "Revenue": "2026-06-30",
+    "Operating income": "2026-06-30",
+    "Net income": "2026-06-30",
+    "Diluted EPS": "2026-06-30",
+    "Operating cash flow": null,
+    "Capital expenditure": null,
+    "Total debt": "2026-03-31",
+    "Cash and equivalents": "2026-03-31",
+    "Free cash flow (calculated)": null
+  },
+  "revenueYoYGrowthPct": 61.49,
+  "netIncomeYoYGrowthPct": 125.11,
+  "findings": [
+    "The existing dashboard classifies the stock as an Uptrend.",
+    "Price is above the 200 EMA but is not above all of the 20/50/200 EMA levels.",
+    "Latest available quarterly revenue is +61.5% versus the quarter four periods earlier (provider-reported series).",
+    "Latest available quarterly net income is +125.1% versus the quarter four periods earlier (provider-reported series)."
+  ],
+  "risks": [
+    "Quarterly operating cash-flow data was not returned; do not infer cash conversion quality without a verified source."
+  ],
+  "futureProspects": "Research view only: assess future prospects after verifying the latest company guidance, demand outlook, execution capacity, margins, cash conversion and valuation. This automated report does not claim management guidance or an order book unless a dated source document is reviewed.",
+  "concallAndDisclosureSources": [
+    {
+      "label": "Screener financials and concalls search",
+      "url": "https://www.google.com/search?q=The+Great+Eastern+Shipping+Company+Limited+GESHIP+quarterly+results+investor+presentation+concall+site%3Ascreener.in"
+    },
+    {
+      "label": "NSE corporate announcements",
+      "url": "https://www.nseindia.com/companies-listing/corporate-filings-announcements"
+    },
+    {
+      "label": "Concall transcripts and order-book search",
+      "url": "https://www.google.com/search?q=%22GESHIP%22+earnings+call+transcript+investor+presentation+order+book"
+    },
+    {
+      "label": "Company investor-relations search",
+      "url": "https://www.google.com/search?q=The+Great+Eastern+Shipping+Company+Limited+GESHIP+quarterly+results+investor+presentation+concall+investor+relations"
+    }
+  ],
+  "dataNotes": [
+    "Market and financial data retrieved through yfinance/Yahoo Finance; availability and accounting labels can vary by company. Yahoo Finance debtToEquity is converted from percentage units to a ratio (divide by 100) for comparison with Screener-style ratios.",
+    "Quarterly periods are sorted by quarter-end date, and the report exposes the newest quarter actually returned by Yahoo Finance. Yahoo Finance may lag Screener.in or official exchange filings; compare the displayed quarter-end date with the latest company result before relying on it.",
+    "Concall summaries, management guidance and order-book figures are not automatically extracted in this version; use the source links and verify the original dated disclosure.",
+    "This report is informational research, not investment advice or a buy/sell signal."
+  ]
+}

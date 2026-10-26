@@ -1,0 +1,179 @@
+{
+  "symbol": "KARURVYSYA",
+  "yahooTicker": "KARURVYSYA.NS",
+  "companyName": "The Karur Vysya Bank Limited",
+  "generatedAt": "2026-10-27T00:35:57+05:30",
+  "dataAsOf": "2026-10-23",
+  "sector": "Financial Services",
+  "currency": "INR",
+  "price": 336.3,
+  "technical": {
+    "Sector": "Financial Services",
+    "Price": 336.299987793,
+    "Trend": "Uptrend",
+    "Strength Score": 14.0097441638,
+    "RSI 14": 55.7172586192,
+    "20 EMA": 342.3879864901,
+    "50 EMA": 335.4801719928,
+    "200 EMA": 303.8149638546,
+    "1M %": 3.6523270581,
+    "3M %": 0.5982650533,
+    "6M %": 14.1129807645,
+    "1Y %": 37.6754037794,
+    "From 52W High %": -9.1203894375,
+    "20EMA Slope %": 2.3371594624,
+    "Early Reversal": false,
+    "price_above_20ema": false,
+    "price_above_50ema": true,
+    "price_above_200ema": true
+  },
+  "quarterly": {
+    "Revenue": [
+      {
+        "period": "2026-09-30",
+        "value": 19321800000.0
+      },
+      {
+        "period": "2026-06-30",
+        "value": 18645400000.0
+      },
+      {
+        "period": "2026-03-31",
+        "value": 19745700000.0
+      },
+      {
+        "period": "2025-12-31",
+        "value": 17482000000.0
+      }
+    ],
+    "Operating income": [],
+    "Net income": [
+      {
+        "period": "2026-09-30",
+        "value": 7876900000.0
+      },
+      {
+        "period": "2026-06-30",
+        "value": 7557000000.0
+      },
+      {
+        "period": "2026-03-31",
+        "value": 7249600000.0
+      },
+      {
+        "period": "2025-12-31",
+        "value": 6899600000.0
+      }
+    ],
+    "Diluted EPS": [
+      {
+        "period": "2026-09-30",
+        "value": 8.14
+      },
+      {
+        "period": "2026-06-30",
+        "value": 7.82
+      },
+      {
+        "period": "2026-03-31",
+        "value": 7.5
+      },
+      {
+        "period": "2025-12-31",
+        "value": 7.14
+      }
+    ],
+    "Operating cash flow": [],
+    "Capital expenditure": [],
+    "Total debt": [
+      {
+        "period": "2026-09-30",
+        "value": 23209100000.0
+      },
+      {
+        "period": "2026-03-31",
+        "value": 26225600000.0
+      },
+      {
+        "period": "2025-03-31",
+        "value": 12169823000.0
+      }
+    ],
+    "Cash and equivalents": [
+      {
+        "period": "2026-09-30",
+        "value": 76600400000.0
+      },
+      {
+        "period": "2026-03-31",
+        "value": 53026400000.0
+      },
+      {
+        "period": "2025-03-31",
+        "value": 78067207000.0
+      }
+    ],
+    "Free cash flow (calculated)": []
+  },
+  "valuation": {
+    "Trailing P/E": 11.0396,
+    "Forward P/E": 9.69,
+    "Price-to-book": 2.1204,
+    "Debt-to-equity": null,
+    "Return on equity (%)": 20.989,
+    "Profit margin (%)": 42.512,
+    "Operating margin (%)": 57.545,
+    "Market cap": 326443532288.0,
+    "52-week high": 390.8,
+    "52-week low": 236.63
+  },
+  "quarterlyDataSource": "Yahoo Finance (yfinance)",
+  "latestQuarterAvailable": "2026-09-30",
+  "latestQuarterByMetric": {
+    "Revenue": "2026-09-30",
+    "Operating income": null,
+    "Net income": "2026-09-30",
+    "Diluted EPS": "2026-09-30",
+    "Operating cash flow": null,
+    "Capital expenditure": null,
+    "Total debt": "2026-09-30",
+    "Cash and equivalents": "2026-09-30",
+    "Free cash flow (calculated)": null
+  },
+  "revenueYoYGrowthPct": 10.52,
+  "netIncomeYoYGrowthPct": 14.16,
+  "findings": [
+    "The existing dashboard classifies the stock as an Uptrend.",
+    "Price is above the 200 EMA but is not above all of the 20/50/200 EMA levels.",
+    "Latest available quarterly revenue is +10.5% versus the quarter four periods earlier (provider-reported series).",
+    "Latest available quarterly net income is +14.2% versus the quarter four periods earlier (provider-reported series)."
+  ],
+  "risks": [
+    "Quarterly operating cash-flow data was not returned; do not infer cash conversion quality without a verified source."
+  ],
+  "futureProspects": "Research view only: assess future prospects after verifying the latest company guidance, demand outlook, execution capacity, margins, cash conversion and valuation. This automated report does not claim management guidance or an order book unless a dated source document is reviewed.",
+  "concallAndDisclosureSources": [
+    {
+      "label": "Screener financials and concalls search",
+      "url": "https://www.google.com/search?q=The+Karur+Vysya+Bank+Limited+KARURVYSYA+quarterly+results+investor+presentation+concall+site%3Ascreener.in"
+    },
+    {
+      "label": "NSE corporate announcements",
+      "url": "https://www.nseindia.com/companies-listing/corporate-filings-announcements"
+    },
+    {
+      "label": "Concall transcripts and order-book search",
+      "url": "https://www.google.com/search?q=%22KARURVYSYA%22+earnings+call+transcript+investor+presentation+order+book"
+    },
+    {
+      "label": "Company investor-relations search",
+      "url": "https://www.google.com/search?q=The+Karur+Vysya+Bank+Limited+KARURVYSYA+quarterly+results+investor+presentation+concall+investor+relations"
+    }
+  ],
+  "dataNotes": [
+    "Market and financial data retrieved through yfinance/Yahoo Finance; availability and accounting labels can vary by company. Yahoo Finance debtToEquity is converted from percentage units to a ratio (divide by 100) for comparison with Screener-style ratios.",
+    "Quarterly periods are sorted by quarter-end date, and the report exposes the newest quarter actually returned by Yahoo Finance. Yahoo Finance may lag Screener.in or official exchange filings; compare the displayed quarter-end date with the latest company result before relying on it.",
+    "Concall summaries, management guidance and order-book figures are not automatically extracted in this version; use the source links and verify the original dated disclosure.",
+    "This report is informational research, not investment advice or a buy/sell signal."
+  ]
+}

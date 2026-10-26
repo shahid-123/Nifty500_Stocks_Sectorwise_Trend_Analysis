@@ -1,0 +1,188 @@
+{
+  "symbol": "ABDL",
+  "yahooTicker": "ABDL.NS",
+  "companyName": "Allied Blenders and Distillers Limited",
+  "generatedAt": "2026-10-27T00:35:59+05:30",
+  "dataAsOf": "2026-10-23",
+  "sector": "Fast Moving Consumer Goods",
+  "currency": "INR",
+  "price": 672.65,
+  "technical": {
+    "Sector": "Fast Moving Consumer Goods",
+    "Price": 672.6500244141,
+    "Trend": "Uptrend",
+    "Strength Score": 10.8737825252,
+    "RSI 14": 48.4266583065,
+    "20 EMA": 700.5406689479,
+    "50 EMA": 670.6897630667,
+    "200 EMA": 595.3182587407,
+    "1M %": 2.4756245271,
+    "3M %": 11.6338956172,
+    "6M %": 20.9078308424,
+    "1Y %": 8.4777791143,
+    "From 52W High %": -10.1516058935,
+    "20EMA Slope %": 0.6171029445,
+    "Early Reversal": false,
+    "price_above_20ema": false,
+    "price_above_50ema": true,
+    "price_above_200ema": true
+  },
+  "quarterly": {
+    "Revenue": [
+      {
+        "period": "2026-06-30",
+        "value": 9789358000.0
+      },
+      {
+        "period": "2026-03-31",
+        "value": 10068872000.0
+      },
+      {
+        "period": "2025-12-31",
+        "value": 10029786000.0
+      },
+      {
+        "period": "2025-06-30",
+        "value": 9228561000.0
+      }
+    ],
+    "Operating income": [
+      {
+        "period": "2026-06-30",
+        "value": 926801000.0
+      },
+      {
+        "period": "2026-03-31",
+        "value": 1404499000.0
+      },
+      {
+        "period": "2025-12-31",
+        "value": 1172643000.0
+      },
+      {
+        "period": "2025-06-30",
+        "value": 960364000.0
+      }
+    ],
+    "Net income": [
+      {
+        "period": "2026-06-30",
+        "value": 492169000.0
+      },
+      {
+        "period": "2026-03-31",
+        "value": 409736000.0
+      },
+      {
+        "period": "2025-12-31",
+        "value": 664787000.0
+      },
+      {
+        "period": "2025-06-30",
+        "value": 565594000.0
+      }
+    ],
+    "Diluted EPS": [
+      {
+        "period": "2026-06-30",
+        "value": 1.76
+      },
+      {
+        "period": "2026-03-31",
+        "value": 1.46
+      },
+      {
+        "period": "2025-12-31",
+        "value": 2.38
+      },
+      {
+        "period": "2025-06-30",
+        "value": 2.02
+      }
+    ],
+    "Operating cash flow": [],
+    "Capital expenditure": [],
+    "Total debt": [
+      {
+        "period": "2026-03-31",
+        "value": 11505279000.0
+      },
+      {
+        "period": "2025-03-31",
+        "value": 9052468000.0
+      }
+    ],
+    "Cash and equivalents": [
+      {
+        "period": "2026-03-31",
+        "value": 1359232000.0
+      },
+      {
+        "period": "2025-03-31",
+        "value": 1042192000.0
+      }
+    ],
+    "Free cash flow (calculated)": []
+  },
+  "valuation": {
+    "Trailing P/E": 85.7024,
+    "Forward P/E": 43.016,
+    "Price-to-book": 11.2892,
+    "Debt-to-equity": 0.6825100000000001,
+    "Return on equity (%)": null,
+    "Profit margin (%)": 5.554,
+    "Operating margin (%)": 9.467,
+    "Market cap": 187699494912.0,
+    "52-week high": 766.9,
+    "52-week low": 382.1
+  },
+  "quarterlyDataSource": "Yahoo Finance (yfinance)",
+  "latestQuarterAvailable": "2026-06-30",
+  "latestQuarterByMetric": {
+    "Revenue": "2026-06-30",
+    "Operating income": "2026-06-30",
+    "Net income": "2026-06-30",
+    "Diluted EPS": "2026-06-30",
+    "Operating cash flow": null,
+    "Capital expenditure": null,
+    "Total debt": "2026-03-31",
+    "Cash and equivalents": "2026-03-31",
+    "Free cash flow (calculated)": null
+  },
+  "revenueYoYGrowthPct": 6.08,
+  "netIncomeYoYGrowthPct": -12.98,
+  "findings": [
+    "The existing dashboard classifies the stock as an Uptrend.",
+    "Price is above the 200 EMA but is not above all of the 20/50/200 EMA levels.",
+    "Latest available quarterly revenue is +6.1% versus the quarter four periods earlier (provider-reported series).",
+    "Latest available quarterly net income is -13.0% versus the quarter four periods earlier (provider-reported series)."
+  ],
+  "risks": [
+    "Quarterly operating cash-flow data was not returned; do not infer cash conversion quality without a verified source."
+  ],
+  "futureProspects": "Research view only: assess future prospects after verifying the latest company guidance, demand outlook, execution capacity, margins, cash conversion and valuation. This automated report does not claim management guidance or an order book unless a dated source document is reviewed.",
+  "concallAndDisclosureSources": [
+    {
+      "label": "Screener financials and concalls search",
+      "url": "https://www.google.com/search?q=Allied+Blenders+and+Distillers+Limited+ABDL+quarterly+results+investor+presentation+concall+site%3Ascreener.in"
+    },
+    {
+      "label": "NSE corporate announcements",
+      "url": "https://www.nseindia.com/companies-listing/corporate-filings-announcements"
+    },
+    {
+      "label": "Concall transcripts and order-book search",
+      "url": "https://www.google.com/search?q=%22ABDL%22+earnings+call+transcript+investor+presentation+order+book"
+    },
+    {
+      "label": "Company investor-relations search",
+      "url": "https://www.google.com/search?q=Allied+Blenders+and+Distillers+Limited+ABDL+quarterly+results+investor+presentation+concall+investor+relations"
+    }
+  ],
+  "dataNotes": [
+    "Market and financial data retrieved through yfinance/Yahoo Finance; availability and accounting labels can vary by company. Yahoo Finance debtToEquity is converted from percentage units to a ratio (divide by 100) for comparison with Screener-style ratios.",
+    "Quarterly periods are sorted by quarter-end date, and the report exposes the newest quarter actually returned by Yahoo Finance. Yahoo Finance may lag Screener.in or official exchange filings; compare the displayed quarter-end date with the latest company result before relying on it.",
+    "Concall summaries, management guidance and order-book figures are not automatically extracted in this version; use the source links and verify the original dated disclosure.",
+    "This report is informational research, not investment advice or a buy/sell signal."
+  ]
+}

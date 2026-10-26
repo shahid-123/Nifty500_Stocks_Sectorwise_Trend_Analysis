@@ -1,0 +1,196 @@
+{
+  "symbol": "SUNTV",
+  "yahooTicker": "SUNTV.NS",
+  "companyName": "Sun TV Network Limited",
+  "generatedAt": "2026-10-27T00:36:03+05:30",
+  "dataAsOf": "2026-10-23",
+  "sector": "Media Entertainment & Publication",
+  "currency": "INR",
+  "price": 578.8,
+  "technical": {
+    "Sector": "Media Entertainment & Publication",
+    "Price": 578.799987793,
+    "Trend": "Uptrend",
+    "Strength Score": 8.8397753351,
+    "RSI 14": 44.9254352242,
+    "20 EMA": 594.9565464375,
+    "50 EMA": 550.7461771127,
+    "200 EMA": 537.490009473,
+    "1M %": 18.0742499754,
+    "3M %": 19.6743358892,
+    "6M %": -6.5608957959,
+    "1Y %": 4.1714112716,
+    "From 52W High %": -11.3765105758,
+    "20EMA Slope %": 2.0806787566,
+    "Early Reversal": false,
+    "price_above_20ema": false,
+    "price_above_50ema": true,
+    "price_above_200ema": true
+  },
+  "quarterly": {
+    "Revenue": [
+      {
+        "period": "2026-06-30",
+        "value": 14578800000.0
+      },
+      {
+        "period": "2026-03-31",
+        "value": 8825100000.0
+      },
+      {
+        "period": "2025-12-31",
+        "value": 8621600000.0
+      },
+      {
+        "period": "2025-09-30",
+        "value": 12998700000.0
+      }
+    ],
+    "Operating income": [
+      {
+        "period": "2026-06-30",
+        "value": 6395200000.0
+      },
+      {
+        "period": "2026-03-31",
+        "value": 2927500000.0
+      },
+      {
+        "period": "2025-12-31",
+        "value": 3064400000.0
+      },
+      {
+        "period": "2025-09-30",
+        "value": 3805400000.0
+      }
+    ],
+    "Net income": [
+      {
+        "period": "2026-06-30",
+        "value": 6188200000.0
+      },
+      {
+        "period": "2026-03-31",
+        "value": 2320200000.0
+      },
+      {
+        "period": "2025-12-31",
+        "value": 3240600000.0
+      },
+      {
+        "period": "2025-09-30",
+        "value": 3543300000.0
+      }
+    ],
+    "Diluted EPS": [
+      {
+        "period": "2026-06-30",
+        "value": 15.71
+      },
+      {
+        "period": "2026-03-31",
+        "value": 5.9
+      },
+      {
+        "period": "2025-12-31",
+        "value": 8.23
+      },
+      {
+        "period": "2025-09-30",
+        "value": 9.0
+      }
+    ],
+    "Operating cash flow": [],
+    "Capital expenditure": [],
+    "Total debt": [
+      {
+        "period": "2026-03-31",
+        "value": 1059300000.0
+      },
+      {
+        "period": "2025-09-30",
+        "value": 1462600000.0
+      },
+      {
+        "period": "2025-03-31",
+        "value": 1243400000.0
+      }
+    ],
+    "Cash and equivalents": [
+      {
+        "period": "2026-03-31",
+        "value": 66299700000.0
+      },
+      {
+        "period": "2025-09-30",
+        "value": 61235100000.0
+      },
+      {
+        "period": "2025-03-31",
+        "value": 64123100000.0
+      }
+    ],
+    "Free cash flow (calculated)": []
+  },
+  "valuation": {
+    "Trailing P/E": 14.7297,
+    "Forward P/E": 12.8562,
+    "Price-to-book": 1.7794,
+    "Debt-to-equity": 0.008369999999999999,
+    "Return on equity (%)": null,
+    "Profit margin (%)": 33.966,
+    "Operating margin (%)": 43.866,
+    "Market cap": 225455800320.0,
+    "52-week high": 673.95,
+    "52-week low": 447.2
+  },
+  "quarterlyDataSource": "Yahoo Finance (yfinance)",
+  "latestQuarterAvailable": "2026-06-30",
+  "latestQuarterByMetric": {
+    "Revenue": "2026-06-30",
+    "Operating income": "2026-06-30",
+    "Net income": "2026-06-30",
+    "Diluted EPS": "2026-06-30",
+    "Operating cash flow": null,
+    "Capital expenditure": null,
+    "Total debt": "2026-03-31",
+    "Cash and equivalents": "2026-03-31",
+    "Free cash flow (calculated)": null
+  },
+  "revenueYoYGrowthPct": 12.16,
+  "netIncomeYoYGrowthPct": 74.65,
+  "findings": [
+    "The existing dashboard classifies the stock as an Uptrend.",
+    "Price is above the 200 EMA but is not above all of the 20/50/200 EMA levels.",
+    "Latest available quarterly revenue is +12.2% versus the quarter four periods earlier (provider-reported series).",
+    "Latest available quarterly net income is +74.7% versus the quarter four periods earlier (provider-reported series)."
+  ],
+  "risks": [
+    "Quarterly operating cash-flow data was not returned; do not infer cash conversion quality without a verified source."
+  ],
+  "futureProspects": "Research view only: assess future prospects after verifying the latest company guidance, demand outlook, execution capacity, margins, cash conversion and valuation. This automated report does not claim management guidance or an order book unless a dated source document is reviewed.",
+  "concallAndDisclosureSources": [
+    {
+      "label": "Screener financials and concalls search",
+      "url": "https://www.google.com/search?q=Sun+TV+Network+Limited+SUNTV+quarterly+results+investor+presentation+concall+site%3Ascreener.in"
+    },
+    {
+      "label": "NSE corporate announcements",
+      "url": "https://www.nseindia.com/companies-listing/corporate-filings-announcements"
+    },
+    {
+      "label": "Concall transcripts and order-book search",
+      "url": "https://www.google.com/search?q=%22SUNTV%22+earnings+call+transcript+investor+presentation+order+book"
+    },
+    {
+      "label": "Company investor-relations search",
+      "url": "https://www.google.com/search?q=Sun+TV+Network+Limited+SUNTV+quarterly+results+investor+presentation+concall+investor+relations"
+    }
+  ],
+  "dataNotes": [
+    "Market and financial data retrieved through yfinance/Yahoo Finance; availability and accounting labels can vary by company. Yahoo Finance debtToEquity is converted from percentage units to a ratio (divide by 100) for comparison with Screener-style ratios.",
+    "Quarterly periods are sorted by quarter-end date, and the report exposes the newest quarter actually returned by Yahoo Finance. Yahoo Finance may lag Screener.in or official exchange filings; compare the displayed quarter-end date with the latest company result before relying on it.",
+    "Concall summaries, management guidance and order-book figures are not automatically extracted in this version; use the source links and verify the original dated disclosure.",
+    "This report is informational research, not investment advice or a buy/sell signal."
+  ]
+}

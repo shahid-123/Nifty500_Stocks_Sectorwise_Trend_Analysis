@@ -1,0 +1,196 @@
+{
+  "symbol": "WELSPUNLIV",
+  "yahooTicker": "WELSPUNLIV.NS",
+  "companyName": "Welspun Living Limited",
+  "generatedAt": "2026-10-27T00:35:45+05:30",
+  "dataAsOf": "2026-10-23",
+  "sector": "Textiles",
+  "currency": "INR",
+  "price": 209.92,
+  "technical": {
+    "Sector": "Textiles",
+    "Price": 209.9199981689,
+    "Trend": "Uptrend",
+    "Strength Score": 35.6454143235,
+    "RSI 14": 27.8509764192,
+    "20 EMA": 219.1415806876,
+    "50 EMA": 207.5612760224,
+    "200 EMA": 168.537750062,
+    "1M %": -6.1893935018,
+    "3M %": 27.2319481059,
+    "6M %": 57.3379291983,
+    "1Y %": 64.2011734915,
+    "From 52W High %": -12.2297948003,
+    "20EMA Slope %": -1.4819026657,
+    "Early Reversal": false,
+    "price_above_20ema": false,
+    "price_above_50ema": true,
+    "price_above_200ema": true
+  },
+  "quarterly": {
+    "Revenue": [
+      {
+        "period": "2026-06-30",
+        "value": 27954500000.0
+      },
+      {
+        "period": "2026-03-31",
+        "value": 24354300000.0
+      },
+      {
+        "period": "2025-12-31",
+        "value": 22622000000.0
+      },
+      {
+        "period": "2025-09-30",
+        "value": 24409100000.0
+      }
+    ],
+    "Operating income": [
+      {
+        "period": "2026-06-30",
+        "value": 8853300000.0
+      },
+      {
+        "period": "2026-03-31",
+        "value": 1483400000.0
+      },
+      {
+        "period": "2025-12-31",
+        "value": 6509400000.0
+      },
+      {
+        "period": "2025-09-30",
+        "value": 6740000000.0
+      }
+    ],
+    "Net income": [
+      {
+        "period": "2026-06-30",
+        "value": 1607300000.0
+      },
+      {
+        "period": "2026-03-31",
+        "value": 1037000000.0
+      },
+      {
+        "period": "2025-12-31",
+        "value": 2100000.0
+      },
+      {
+        "period": "2025-09-30",
+        "value": 129800000.0
+      }
+    ],
+    "Diluted EPS": [
+      {
+        "period": "2026-06-30",
+        "value": 1.68
+      },
+      {
+        "period": "2026-03-31",
+        "value": 1.08
+      },
+      {
+        "period": "2025-12-31",
+        "value": 0.01
+      },
+      {
+        "period": "2025-09-30",
+        "value": 0.13
+      }
+    ],
+    "Operating cash flow": [],
+    "Capital expenditure": [],
+    "Total debt": [
+      {
+        "period": "2026-03-31",
+        "value": 23147900000.0
+      },
+      {
+        "period": "2025-09-30",
+        "value": 26845500000.0
+      },
+      {
+        "period": "2025-03-31",
+        "value": 27620000000.0
+      }
+    ],
+    "Cash and equivalents": [
+      {
+        "period": "2026-03-31",
+        "value": 10165900000.0
+      },
+      {
+        "period": "2025-09-30",
+        "value": 12736500000.0
+      },
+      {
+        "period": "2025-03-31",
+        "value": 8194100000.0
+      }
+    ],
+    "Free cash flow (calculated)": []
+  },
+  "valuation": {
+    "Trailing P/E": 72.0552,
+    "Forward P/E": 22.5415,
+    "Price-to-book": 4.0758,
+    "Debt-to-equity": 0.46501,
+    "Return on equity (%)": null,
+    "Profit margin (%)": 2.795,
+    "Operating margin (%)": 8.468,
+    "Market cap": 196724359168.0,
+    "52-week high": 245.5,
+    "52-week low": 107.1
+  },
+  "quarterlyDataSource": "Yahoo Finance (yfinance)",
+  "latestQuarterAvailable": "2026-06-30",
+  "latestQuarterByMetric": {
+    "Revenue": "2026-06-30",
+    "Operating income": "2026-06-30",
+    "Net income": "2026-06-30",
+    "Diluted EPS": "2026-06-30",
+    "Operating cash flow": null,
+    "Capital expenditure": null,
+    "Total debt": "2026-03-31",
+    "Cash and equivalents": "2026-03-31",
+    "Free cash flow (calculated)": null
+  },
+  "revenueYoYGrowthPct": 14.52,
+  "netIncomeYoYGrowthPct": 1138.29,
+  "findings": [
+    "The existing dashboard classifies the stock as an Uptrend.",
+    "Price is above the 200 EMA but is not above all of the 20/50/200 EMA levels.",
+    "Latest available quarterly revenue is +14.5% versus the quarter four periods earlier (provider-reported series).",
+    "Latest available quarterly net income is +1138.3% versus the quarter four periods earlier (provider-reported series)."
+  ],
+  "risks": [
+    "Quarterly operating cash-flow data was not returned; do not infer cash conversion quality without a verified source."
+  ],
+  "futureProspects": "Research view only: assess future prospects after verifying the latest company guidance, demand outlook, execution capacity, margins, cash conversion and valuation. This automated report does not claim management guidance or an order book unless a dated source document is reviewed.",
+  "concallAndDisclosureSources": [
+    {
+      "label": "Screener financials and concalls search",
+      "url": "https://www.google.com/search?q=Welspun+Living+Limited+WELSPUNLIV+quarterly+results+investor+presentation+concall+site%3Ascreener.in"
+    },
+    {
+      "label": "NSE corporate announcements",
+      "url": "https://www.nseindia.com/companies-listing/corporate-filings-announcements"
+    },
+    {
+      "label": "Concall transcripts and order-book search",
+      "url": "https://www.google.com/search?q=%22WELSPUNLIV%22+earnings+call+transcript+investor+presentation+order+book"
+    },
+    {
+      "label": "Company investor-relations search",
+      "url": "https://www.google.com/search?q=Welspun+Living+Limited+WELSPUNLIV+quarterly+results+investor+presentation+concall+investor+relations"
+    }
+  ],
+  "dataNotes": [
+    "Market and financial data retrieved through yfinance/Yahoo Finance; availability and accounting labels can vary by company. Yahoo Finance debtToEquity is converted from percentage units to a ratio (divide by 100) for comparison with Screener-style ratios.",
+    "Quarterly periods are sorted by quarter-end date, and the report exposes the newest quarter actually returned by Yahoo Finance. Yahoo Finance may lag Screener.in or official exchange filings; compare the displayed quarter-end date with the latest company result before relying on it.",
+    "Concall summaries, management guidance and order-book figures are not automatically extracted in this version; use the source links and verify the original dated disclosure.",
+    "This report is informational research, not investment advice or a buy/sell signal."
+  ]
+}
